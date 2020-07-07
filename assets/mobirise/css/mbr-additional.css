@@ -950,6 +950,101 @@ a {
     margin: auto;
   }
 }
+.cid-s40BuV3Lhd {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background: #ffffff;
+}
+.cid-s40BuV3Lhd .container-fluid {
+  padding: 0 3rem;
+}
+.cid-s40BuV3Lhd .table-wrap {
+  margin: 0 1rem 3rem 1rem;
+  border: 1px solid #efefef;
+  border-radius: 3%;
+  padding: 3rem;
+  transition: all 0.3s ease-in-out;
+}
+.cid-s40BuV3Lhd .table-wrap:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: #149dcc;
+}
+.cid-s40BuV3Lhd .table-wrap:hover .table-pricing,
+.cid-s40BuV3Lhd .table-wrap:hover .table-icon {
+  color: #ffffff !important;
+}
+.cid-s40BuV3Lhd .table-wrap:hover .table-heading,
+.cid-s40BuV3Lhd .table-wrap:hover .mbr-section-subtitle {
+  color: #ffffff !important;
+}
+.cid-s40BuV3Lhd .section-heading {
+  margin-bottom: 2rem;
+}
+.cid-s40BuV3Lhd .table-heading {
+  margin-bottom: 2em;
+}
+.cid-s40BuV3Lhd .underline {
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+}
+.cid-s40BuV3Lhd .underline .line {
+  width: 6rem;
+  height: 3px;
+  background: linear-gradient(135deg, #0f7699, #149dcc);
+  display: inline-block;
+}
+.cid-s40BuV3Lhd ul {
+  word-wrap: break-word;
+  padding: 0 4rem;
+  margin: 0;
+  list-style: none;
+}
+.cid-s40BuV3Lhd ul li {
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  padding: 0.7em 0;
+  -webkit-align-items: flex-end;
+  align-items: flex-end;
+}
+.cid-s40BuV3Lhd ul li span {
+  font-size: 32px;
+  color: #000000;
+}
+.cid-s40BuV3Lhd hr {
+  display: none;
+  background: #efefef;
+}
+.cid-s40BuV3Lhd hr {
+  display: block;
+}
+.cid-s40BuV3Lhd .table-heading,
+.cid-s40BuV3Lhd .table-pricing,
+.cid-s40BuV3Lhd .table-icon {
+  color: #149dcc;
+  text-align: left;
+  transition: all 0.3s ease-in-out;
+}
+.cid-s40BuV3Lhd .mbr-section-subtitle {
+  color: #767676;
+  transition: all 0.3s ease-in-out;
+}
+.cid-s40BuV3Lhd .mbr-section-btn {
+  padding-top: 1rem;
+}
+.cid-s40BuV3Lhd .mbr-iconfont {
+  font-size: 50px;
+}
+@media (max-width: 1200px) {
+  .cid-s40BuV3Lhd .table-wrap {
+    margin: 1.5rem 0 0 0;
+  }
+}
+@media (max-width: 767px) {
+  .cid-s40BuV3Lhd .container-fluid {
+    padding: 0 0rem;
+  }
+}
 .cid-s3Or6JGxog {
   background-image: url("../../../assets/images/saschafrei-2000x1333.jpeg");
   background-position: right;
