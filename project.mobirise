@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page5.html",
+    "currentPage": "kollegium.html",
     "theme": {
       "name": "audiom4",
       "title": "AudioM4",
@@ -5046,7 +5046,7 @@
         }
       ]
     },
-    "page5.html": {
+    "kollegium.html": {
       "settings": {
         "title": "Kollegium",
         "order": 1
