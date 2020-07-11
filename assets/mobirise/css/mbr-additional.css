@@ -4497,6 +4497,72 @@ a {
 .cid-s4ror9IHaJ .body-item1 {
   color: #000000;
 }
+.cid-s4rQfRasHc {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-image: url("../../../assets/images/mbr-1.jpg");
+}
+.cid-s4rQfRasHc .container-fluid {
+  padding: 0 3rem;
+}
+.cid-s4rQfRasHc .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-s4rQfRasHc .scroll {
+  overflow-x: auto;
+  padding: 0;
+}
+.cid-s4rQfRasHc .table-wrapper {
+  margin: 0 auto;
+}
+.cid-s4rQfRasHc table {
+  width: 88% !important;
+  margin-top: 6px;
+  margin-bottom: 0;
+}
+.cid-s4rQfRasHc table thead tr {
+  border: none !important;
+}
+.cid-s4rQfRasHc table th {
+  padding: 1.5rem 1rem;
+  transition: all .2s;
+  text-align: center;
+  border-top: none;
+  border-bottom: 1px solid #5b5b5b;
+  color: white;
+  vertical-align: middle;
+}
+.cid-s4rQfRasHc table tr {
+  border-bottom: 1px solid #c1c1c1;
+  border-top: none;
+}
+.cid-s4rQfRasHc table td {
+  padding: 1.2rem 1.6rem;
+  vertical-align: middle;
+  border: none;
+}
+.cid-s4rQfRasHc tr:hover {
+  background-color: #fac769 !important;
+}
+.cid-s4rQfRasHc .head-item:after,
+.cid-s4rQfRasHc .head-item:before {
+  bottom: 1.6em !important;
+}
+@media (max-width: 767px) {
+  .cid-s4rQfRasHc table th,
+  .cid-s4rQfRasHc table td {
+    padding: .75rem;
+  }
+}
+.cid-s4rQfRasHc .body-item {
+  text-align: center;
+}
+.cid-s4rQfRasHc .mbr-text {
+  color: #767676;
+}
+.cid-s4rQfRasHc .head-item {
+  color: #232323;
+}
 .cid-s4nJWfInvf {
   padding-top: 30px;
   padding-bottom: 30px;
