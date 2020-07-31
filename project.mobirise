@@ -40,7 +40,7 @@
         "url": "https://fonts.googleapis.com/css?family=DM+Sans:400,400i,500,500i,700,700i"
       }
     ],
-    "uniqCompNum": 149,
+    "uniqCompNum": 152,
     "versionPublish": "4.11.6",
     "screenshot": "screenshot.png",
     "noImageResize": true,
@@ -10969,7 +10969,7 @@
             }
           },
           "_name": "menu1",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"4.5\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\">\n        <select title=\"Icons\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n\n        <input type=\"color\" title=\"Scroll Color\" name=\"scrollcolor\" value=\"#000000\">\n        <input type=\"color\" title=\"Drop Down BG\" name=\"ddbg\" value=\"#efefef\">\n\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#0f7699\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n\n        <div class=\"container\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://mobirise.com\">\n                        <img src=\"@PROJECT_PATH@/assets/images/logo-wvh02.svg\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://deine-schule.com\" data-app-placeholder=\"Type Text\">Wilhelm von Humboldt<br>weltweite Fernschule</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                        <a class=\"nav-link link text-black\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                            Home</a>\n                    </li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"page5.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Schulleitung</a>\n                        \n                    </li>\n                    <li class=\"nav-item dropdown open\"><a class=\"nav-link link dropdown-toggle text-black\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Konzepte</a><div class=\"dropdown-menu\"><a class=\"dropdown-item text-black\" href=\"technik.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Technik</a><a class=\"text-black dropdown-item\" href=\"Grundschule.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Grundschule</a><a class=\"dropdown-item text-black\" href=\"Sekundarstufe1.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Mittelstufe<br></a><a class=\"text-black dropdown-item\" href=\"Oberstufe.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Oberstufe</a><a class=\"text-black dropdown-item\" href=\"ergaenzungsunterricht.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Ergänzungsunterricht<br></a><a class=\"text-black dropdown-item\" href=\"deutschalsfremdsprache.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" target=\"_blank\">Deutsch als Fremdsprache<br></a></div></li><li class=\"nav-item dropdown\"><a class=\"nav-link link text-black dropdown-toggle\" href=\"aufnahmeantrag.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">Kontakt zu uns<br></a><div class=\"dropdown-menu\"><a class=\"text-black dropdown-item\" href=\"gespraech.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">persönliches Gespräch</a><a class=\"text-black dropdown-item\" href=\"aufnahmeantrag.html#form2-j\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Aufnahmeformular</a><a class=\"text-black dropdown-item\" href=\"aufnahmeantrag.html#extFeatures7-h\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Kostenstruktur</a></div></li></ul>\n                <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                    <a href=\"https://teams.microsoft.com/\" target=\"_blank\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont icon54-v1-office\" style=\"color: rgb(7, 59, 76); fill: rgb(7, 59, 76);\"></span>\n                    </a>\n                    <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                    </a>\n                    <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-vimeo socicon\"></span>\n                    </a>\n                    <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n                    </a>\n                    <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 4\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n                    </a>\n                    <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 5\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n                    </a>\n                </div>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-white-outline\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">\n                        CONTACT US\n                    </a></div>\n            </div>\n        </div>\n    </nav>\n\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"4.5\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\">\n        <select title=\"Icons\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n\n        <input type=\"color\" title=\"Scroll Color\" name=\"scrollcolor\" value=\"#000000\">\n        <input type=\"color\" title=\"Drop Down BG\" name=\"ddbg\" value=\"#efefef\">\n\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#0f7699\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n\n        <div class=\"container\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://mobirise.com\">\n                        <img src=\"@PROJECT_PATH@/assets/images/logo-wvh02.svg\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://deine-schule.com\" data-app-placeholder=\"Type Text\">Wilhelm von Humboldt<br>weltweite Fernschule</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                        <a class=\"nav-link link text-black\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                            Home</a>\n                    </li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"page5.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Schulleitung</a>\n                        \n                    </li>\n                    <li class=\"nav-item dropdown\"><a class=\"nav-link link dropdown-toggle text-black\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Konzepte</a><div class=\"dropdown-menu\"><a class=\"dropdown-item text-black\" href=\"technik.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Technik</a><a class=\"text-black dropdown-item\" href=\"Grundschule.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Grundschule</a><a class=\"dropdown-item text-black\" href=\"Sekundarstufe1.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Mittelstufe<br></a><a class=\"text-black dropdown-item\" href=\"Oberstufe.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Oberstufe</a><a class=\"text-black dropdown-item\" href=\"ergaenzungsunterricht.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Ergänzungsunterricht<br></a><a class=\"text-black dropdown-item\" href=\"deutschalsfremdsprache.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" target=\"_blank\">Deutsch als Fremdsprache<br></a></div></li><li class=\"nav-item dropdown\"><a class=\"nav-link link text-black dropdown-toggle\" href=\"aufnahmeantrag.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">Kontakt zu uns<br></a><div class=\"dropdown-menu\"><a class=\"text-black dropdown-item\" href=\"gespraech.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">persönliches Gespräch</a><a class=\"text-black dropdown-item\" href=\"aufnahmeantrag.html#form2-j\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Aufnahmeformular</a><a class=\"text-black dropdown-item\" href=\"aufnahmeantrag.html#extFeatures7-h\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Kostenstruktur</a></div></li></ul>\n                <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                    <a href=\"https://teams.microsoft.com/\" target=\"_blank\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont icon54-v1-office\" style=\"color: rgb(7, 59, 76); fill: rgb(7, 59, 76);\"></span>\n                    </a>\n                    <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                    </a>\n                    <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-vimeo socicon\"></span>\n                    </a>\n                    <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n                    </a>\n                    <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 4\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n                    </a>\n                    <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 5\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n                    </a>\n                </div>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-white-outline\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">\n                        CONTACT US\n                    </a></div>\n            </div>\n        </div>\n    </nav>\n\n</section>",
           "_cid": "rJ1R9cacNY",
           "_anchor": "menu1-3j",
           "_protectedParams": [],
@@ -10986,97 +10986,113 @@
               "padding-top": "(@paddingTop * 15px)",
               "padding-bottom": "(@paddingBottom * 15px)"
             },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
             "& when (@bg-type = 'color')": {
               "background-color": "@bg-value"
             },
-            "overflow": "hidden",
-            "H1": {
-              "color": "#232323"
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
             },
-            ".mbr-text, .mbr-section-btn": {
-              "color": "#767676"
+            ".container": {
+              "max-width": "1500px"
             },
-            ".img1": {
-              "& when not (@showImage2)": {
-                "width": "100%"
-              },
-              "box-shadow": "0 10px 55px 5px fade(lighten(@secondaryColor, 10%), 35%)",
-              "border-radius": "10px"
-            },
-            ".relative": {
-              "position": "relative"
-            },
-            ".card-img": {
-              "width": "100%"
-            },
-            "& when (@showImage2)": {
-              "& when (@fullScreen)": {
-                "padding-top": "5rem",
-                "padding-bottom": "5rem"
-              },
-              "@keyframes line": {
-                "from": {
-                  "transform": "translateY(4px)"
-                },
-                "50%": {
-                  "transform": "translateY(-4px)"
-                },
-                "to": {
-                  "transform": "translateY(4px)"
-                }
-              },
-              ".card-img2": {
-                "display": "inline-block",
-                "width": "50%",
-                "& when not (@reverseContent)": {
-                  "float": "left"
-                },
-                "& when (@reverseContent)": {
-                  "float": "right"
-                },
-                ".img2": {
-                  "width": "120%",
-                  "& when (@reverseContent)": {
-                    "left": "-20%"
-                  }
-                }
-              },
-              ".card-img1": {
-                "display": "inline-block",
-                "width": "50%",
-                "& when not (@reverseContent)": {
-                  "float": "right"
-                },
-                ".img1": {
-                  "width": "180%",
-                  "& when not (@reverseContent)": {
-                    "transform": "translateX(-45%)"
-                  }
-                }
-              },
-              ".img2": {
-                "box-shadow": "0 10px 55px 5px fade(lighten(@secondaryColor, 10%), 35%)",
-                "margin-top": "4rem",
-                "object-fit": "cover",
-                "position": "relative",
-                "border-radius": "10px",
-                "animation": "line 3s ease-in-out infinite"
+            "img": {
+              "width": "100%",
+              "transition": "5s",
+              "object-fit": "cover",
+              "margin": "auto",
+              "&:hover": {
+                "transform": "scale(1.1)"
               }
+            },
+            ".row": {
+              "background": "@boxbg"
+            },
+            ".img-col": {
+              "padding": "0",
+              "overflow": "hidden",
+              "text-align": "center",
+              "justify-content": "center",
+              "position": "relative",
+              "max-height": "540px",
+              "margin-bottom": "4rem"
+            },
+            "h2": {
+              "padding": "0",
+              "margin": "0"
+            },
+            ".title-wrap": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center"
+            },
+            ".text-col": {
+              "max-width": "700px",
+              "margin": "auto",
+              "padding": "0 4rem 4rem 4rem"
+            },
+            ".mbr-section-btn": {
+              "position": "absolute",
+              "bottom": "0",
+              "right": "0",
+              ".btn": {
+                "margin": "0rem!important",
+                "min-width": "400px",
+                "justify-content": "space-between",
+                ".mbr-iconfont": {
+                  "order": "2"
+                }
+              }
+            },
+            ".number": {
+              "border-top": "2px solid currentColor",
+              "padding-top": "0.4rem",
+              "margin-right": "3rem",
+              "margin-bottom": "0",
+              "margin-top": "0.5rem"
+            },
+            "@media (max-width: 1200px)": {
+              ".row": {
+                "margin": "2rem"
+              }
+            },
+            "@media (max-width: 992px)": {
+              ".text-col": {
+                "padding": "4rem 4rem"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".btn": {
+                "min-width": "200px!important",
+                "padding": "0.6rem 0.8rem!important"
+              },
+              ".row": {
+                "margin": "0rem"
+              },
+              ".text-col": {
+                "padding": "2rem 1rem"
+              },
+              ".number": {
+                "margin-right": "2rem"
+              },
+              ".img-col": {
+                "margin-bottom": "3rem"
+              }
+            },
+            "H2": {
+              "color": "#333333"
+            },
+            ".mbr-text": {
+              "color": "#767676"
             }
           },
-          "_name": "extHeader16",
-          "_customHTML": "<section class=\"extHeader\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"25\" step=\"1\" value=\"10\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"25\" step=\"1\" value=\"10\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <input type=\"checkbox\" title=\"Show Image2\" name=\"showImage2\" checked>\n        <input type=\"checkbox\" title=\"Reverse Content\" name=\"reverseContent\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background3-1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n\n\n\n\n\n    <div class=\"container align-center\">\n        <div class=\"row\">\n            <div class=\"col-md-12 col-lg-6 py-5\" mbr-class=\"{'order-2':reverseContent}\">\n                <h1 class=\"mbr-section-title mbr-regular pb-3 align-left mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>Deutsch als Zweitsprache <br>- <br>German as a second language</b></h1>\n                <h3 class=\"mbr-section-subtitle align-left align-left mbr-regular pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubTitle\">Lorem ipsum dolor sit amet, consectetur adipiscing\n                    elit.</h3>\n                <p class=\"mbr-text mbr-light pb-3 align-left mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Do you want to learn the German language yourself? \n<br>Your child needs practice or does not know German yet? Then we offer German as a foreign language in small classes.\n<br>Write to us about the possible courses and how you can get started.<br><br>¿Quieres aprender el idioma alemán tú mismo? \n<br>¿Su hijo necesita práctica o aún no sabe alemán? Luego ofrecemos alemán como lengua extranjera en pequeñas clases.\n<br>Escríbenos sobre los posibles cursos y cómo puedes empezar.<br><br>Sie wollen selbst die Deutsche Sprache lernen? \n<br>Ihr Kind benötigt Übung oder kann Deutsch noch gar nicht? Dann bieten wir Deutsch als Fremdsprache in kleinen Klassen an.\n<br>Schreiben Sie uns zu den möglichen Kursen und wie Sie einsteigen können.<br></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"align-left mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">READ MORE</a></div>\n            </div>\n\n            <div class=\"col-lg-6 col-md-12 relative card-img\" mbr-class=\"{'align-right': !reverseContent, 'align-left': reverseContent}\">\n                <div class=\"card-img1\">\n                    <img class=\"img1\" src=\"@PROJECT_PATH@/assets/images/mbr-10.jpg\" alt=\"Mobirise\" title>\n                </div>\n                <div class=\"card-img2\" mbr-if=\"showImage2\">\n                    <img class=\"img2\" src=\"@PROJECT_PATH@/assets/images/mbr-60.jpg\" alt=\"Mobirise\" title>\n                </div>\n\n            </div>\n        </div>\n\n\n\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
-          "_anchor": "extHeader16-3k",
-          "_isUserblock": true,
-          "_sourceTheme": "mobirise4",
-          "_cid": "s62UQ0DP74",
+          "_name": "extContent6",
+          "_customHTML": "<section class=\"extСontent\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"4\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Number\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Box Color\" name=\"boxbg\" value=\"#ffffff\" selected>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#efeeee\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#282124\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay&&bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-lg-12 img-col\">\n                <img src=\"@PROJECT_PATH@/assets/images/mbr-15.jpg\" alt=\"Mobirise\" title>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn pt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-lg btn-success\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn\"></span>READ MORE</a></div>\n            </div>\n            <div class=\"col-lg-5 title-col align-left\" mbr-if=\"showSubTitle || showTitle \">\n                <div class=\"title-wrap\">\n                    <h3 class=\"number mbr-medium mbr-black pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubTitle\">DaF</h3>\n                    <h2 class=\"mbr-section-title mbr-semibold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Deutsch als Zweitsprache</h2>\n                </div>\n            </div>\n\n            <div class=\"col-lg-7 text-col align-left\">\n                <p class=\"mbr-text mbr-black mbr-regular mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">Do you want to learn the German language yourself? \n<br>Your child needs practice or does not know German yet? Then we offer German as a foreign language in small classes. \n<br>Write to us about the possible courses and how you can get started.\n<br>\n<br>¿Quieres aprender el idioma alemán tú mismo? \n<br>¿Su hijo necesita práctica o aún no sabe alemán? Luego ofrecemos alemán como lengua extranjera en pequeñas clases. \n<br>Escríbenos sobre los posibles cursos y cómo puedes empezar.\n<br>\n<br>Sie wollen selbst die Deutsche Sprache lernen? \n<br>Ihr Kind benötigt Übung oder kann Deutsch noch gar nicht? Dann bieten wir Deutsch als Fremdsprache in kleinen Klassen an. \n<br>Schreiben Sie uns zu den möglichen Kursen und wie Sie einsteigen können.</p>\n\n            </div>\n\n        </div>\n    </div>\n</section>",
+          "_cid": "s6miVlZqDU",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "extContent6-47"
         },
         {
           "alias": "mobirise4-blocks/components",
