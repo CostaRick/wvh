@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "deutschalsfremdsprache.html",
+    "currentPage": "impressum.html",
     "theme": {
       "name": "audiom4",
       "title": "AudioM4",
@@ -2314,7 +2314,9 @@
     "technik.html": {
       "settings": {
         "title": "Technik",
-        "order": 3
+        "order": 2,
+        "header_custom": "",
+        "meta_descr": "Eine online Schule basiert auf einer modernen Technik. Unser Ziel ist es den Fokus auf den Unterricht und die Schüler zu setzen. Die Technik muss modern, aber unkompliziert sein."
       },
       "components": [
         {
@@ -3093,7 +3095,8 @@
     "impressum.html": {
       "settings": {
         "title": "Impressum",
-        "order": 11
+        "order": 11,
+        "meta_descr": ""
       },
       "components": [
         {
@@ -3753,7 +3756,9 @@
     "kollegium.html": {
       "settings": {
         "title": "Kollegium",
-        "order": 8
+        "order": 7,
+        "header_custom": "",
+        "meta_descr": "Eine gute Schule basiert auf gutem Unterricht. Die Technik ist die Lernumgebung, aber das Herz sind gute Lehrer. Lernen Sie uns kennen und schenken Sie uns Ihr Vertrauen."
       },
       "components": [
         {
@@ -4435,7 +4440,8 @@
     "gespraech.html": {
       "settings": {
         "title": "Informationsgespraech",
-        "order": 2
+        "order": 1,
+        "meta_descr": "Persönlicher Kontakt ist wichtig für uns. Auch eine Fernschule kann persönlich sein. Neue Konzepte müssen sich Ihr Vertrauen verdienen. Schreiben Sie uns wir rufen Sie an."
       },
       "components": [
         {
@@ -5101,7 +5107,7 @@
     "page8.html": {
       "settings": {
         "title": "Beispiele aus dem Unterricht",
-        "order": 9
+        "order": 8
       },
       "components": [
         {
@@ -6263,8 +6269,9 @@
     "Sekundarstufe1.html": {
       "settings": {
         "title": "Mittelstufe",
-        "order": 5,
-        "header_custom": ""
+        "order": 4,
+        "header_custom": "",
+        "meta_descr": "Eine konsequente Online Schule mit Live-Unterricht über Video-Chat und virtuellem Klassenzimmer. Wir kümmern uns um unserer Schülerinen und Schüler. Wie wir eine moderne Lernumgebung als Auslandschule mit Persönlichkeit verbinden, können Sie hier nachlesen."
       },
       "components": [
         {
@@ -7750,8 +7757,9 @@
     "Grundschule.html": {
       "settings": {
         "title": "Grundschule",
-        "order": 4,
-        "header_custom": ""
+        "order": 3,
+        "header_custom": "",
+        "meta_descr": "Eine online Grundschule basiert auf Persönlichkeit und Nähe. Wie das funktionieren soll? Lesen Sie hier."
       },
       "components": [
         {
@@ -8841,7 +8849,7 @@
     "Oberstufe.html": {
       "settings": {
         "title": "Oberstufe",
-        "order": 6,
+        "order": 5,
         "header_custom": ""
       },
       "components": [
@@ -9455,8 +9463,9 @@
     "ergaenzungsunterricht.html": {
       "settings": {
         "title": "Ergänzungsunterricht",
-        "order": 7,
-        "header_custom": ""
+        "order": 6,
+        "header_custom": "",
+        "meta_descr": "Eine online Nachhilfeschule mit Ergänzungsunterricht für Auswanderer Schüler. Hier finden Sie schulbegleitenden Unterricht in deutscher Sprache an unserer deutschen Auslandsschule."
       },
       "components": [
         {
@@ -10564,7 +10573,8 @@
     "deutschalsfremdsprache.html": {
       "settings": {
         "title": "Deutsch als Fremdsprache",
-        "order": 1
+        "order": 9,
+        "meta_descr": "Lernen Sie an unserer online Auslandschule Deutsch. Wir bieten Kurse für Erwachsene, Kinder und Jugendliche."
       },
       "components": [
         {
