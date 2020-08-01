@@ -73,7 +73,7 @@
       "textButton": "Agree"
     },
     "imageResize": true,
-    "publishChangesOnly": true
+    "publishChangesOnly": false
   },
   "pages": {
     "index.html": {
