@@ -43,7 +43,7 @@
     "uniqCompNum": 152,
     "versionPublish": "4.11.6",
     "screenshot": "screenshot.png",
-    "noImageResize": null,
+    "noImageResize": true,
     "cssOptimize": true,
     "lazyLoad": true,
     "lazyType": "placeholder",
