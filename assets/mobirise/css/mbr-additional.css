@@ -9315,6 +9315,47 @@ a {
 .cid-s6miVlZqDU .mbr-text {
   color: #767676;
 }
+.cid-s6HLquWyrO {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #efefef;
+}
+.cid-s6HLquWyrO .mbr-iconfont {
+  font-size: 50px;
+  transition: color .3s;
+  padding: 1.5rem;
+}
+.cid-s6HLquWyrO .mbr-section-title {
+  margin: 0;
+}
+.cid-s6HLquWyrO .mbr-section-subtitle {
+  color: #8d97ad;
+}
+.cid-s6HLquWyrO .card-img span {
+  color: #1dc9cb;
+}
+.cid-s6HLquWyrO .row-item {
+  margin-bottom: 2rem;
+}
+.cid-s6HLquWyrO .row-item:hover .wrapper {
+  background: linear-gradient(90deg, #369898, #5eeebb);
+  cursor: pointer;
+  -webkit-transform: translateY(-10px);
+  transform: translateY(-10px);
+  transition: all 0.3s;
+}
+.cid-s6HLquWyrO .row-item:hover .card-img span {
+  color: #ffffff !important;
+}
+.cid-s6HLquWyrO .row-item:hover .mbr-card-title {
+  color: #ffffff !important;
+}
+.cid-s6HLquWyrO .wrapper {
+  padding: 2.5rem 1rem;
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+}
 .cid-s6fiZqf734 {
   padding-top: 45px;
   padding-bottom: 45px;
