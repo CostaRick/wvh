@@ -1,35 +1,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
+		<loc>https://deine-schule.com/index.html</loc>
+	</url>
+	<url>
+		<loc>https://deine-schule.com/aufnahmeantrag.html</loc>
+	</url>
+	<url>
+		<loc>https://deine-schule.com/technik.html</loc>
+	</url>
+	<url>
 		<loc>https://deine-schule.com/impressum.html</loc>
 	</url>
 	<url>
-		<loc>https://deine-schule.com/index_eng.html</loc>
+		<loc>https://deine-schule.com/kollegium.html</loc>
 	</url>
 	<url>
-		<loc>https://deine-schule.com/contact.html</loc>
+		<loc>https://deine-schule.com/gespraech.html</loc>
 	</url>
 	<url>
-		<loc>https://deine-schule.com/elementaryschool.html</loc>
+		<loc>https://deine-schule.com/beispiele.html</loc>
 	</url>
 	<url>
-		<loc>https://deine-schule.com/middleschool.html</loc>
+		<loc>https://deine-schule.com/Sekundarstufe1.html</loc>
 	</url>
 	<url>
-		<loc>https://deine-schule.com/technology.html</loc>
+		<loc>https://deine-schule.com/Grundschule.html</loc>
 	</url>
 	<url>
-		<loc>https://deine-schule.com/upperschool.html</loc>
+		<loc>https://deine-schule.com/Oberstufe.html</loc>
 	</url>
 	<url>
-		<loc>https://deine-schule.com/supplementarylessons.html</loc>
+		<loc>https://deine-schule.com/ergaenzungsunterricht.html</loc>
 	</url>
 	<url>
-		<loc>https://deine-schule.com/boardofcolleges.html</loc>
-	</url>
-	<url>
-		<loc>https://deine-schule.com/Germanasaforeignlanguage.html</loc>
-	</url>
-	<url>
-		<loc>https://deine-schule.com/applicationformembership.html</loc>
+		<loc>https://deine-schule.com/deutschalsfremdsprache.html</loc>
 	</url>
 </urlset>
