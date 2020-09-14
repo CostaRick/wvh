@@ -18,9 +18,6 @@
 		<loc>https://deine-schule.com/gespraech.html</loc>
 	</url>
 	<url>
-		<loc>https://deine-schule.com/beispiele.html</loc>
-	</url>
-	<url>
 		<loc>https://deine-schule.com/Sekundarstufe1.html</loc>
 	</url>
 	<url>
@@ -34,5 +31,8 @@
 	</url>
 	<url>
 		<loc>https://deine-schule.com/deutschalsfremdsprache.html</loc>
+	</url>
+	<url>
+		<loc>https://deine-schule.com/In_der_Presse.html</loc>
 	</url>
 </urlset>
