@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "gespraech.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "audiom4",
       "title": "AudioM4",
@@ -82,7 +82,7 @@
         "main": true,
         "title": "Home",
         "meta_descr": "Nicht zuletzt durch die Covid-Zeit ist bei vielen Deutschen der Wunsch des Auswanderns mehr ins Zentrum der Gedanken gerückt. Viele Dinge lassen sich finden: ein Job im Ausland, Gesundheitsversorgung, Absicherung, usw. \nDoch oft wird der Traum Richtung Rente verschoben da die Kinder im Ausland nicht, oder nur mit Kompromissen, beschult werden können. Es gibt 140 deutsche Auslandsschulen - aber will bzw. kann ich meinen Platz in der Welt nach der Schule richten? Oft nicht - und der Traum platzt.\n\nWir möchten diesen Eltern nun eine Alternative bieten:\n\nDie Wilhelm von Humboldt Fernschule  bietet weltweit konsequenten Unterricht in deutscher Sprache nach den deutschen Lehrplänen.  Als reine online Schule unterrichten wir die Stunden in kleinen Klassen von 7-13 Schülern im virtuellen Klassenraum mit Video-Chat. Unsere Lehrer unterrichten auch an deutschen Schulen und kennen das deutsche Schulsystem genau. Die Schüler bleiben so auf dem Wissensstand ihre Alters und können nahtlos ohne Wiederholung auch wieder in einer deutschen Schule eingliedert werden, oder per Schulfremdenprüfung ihren Abschluss ablegen. \n\nLesen Sie mehr über unsere Konzepte und vereinbaren Sie ein persönliches Gespräch.",
-        "header_custom": "<meta property=\"og:image\" content=\"https://deine-schule.com/assets/images/mbr-1-1920x1279.jpg\" />",
+        "header_custom": "<meta property=\"og:title\" content=\"Erste Deutschsprachige online Privatschule\">\n<meta property=\"og:description\" content=\"Ortsunabhängiger online Unterricht mit hoher Qualität in kleinen Schulklassen\">\n<meta property=\"og:image\" content=\"https://deine-schule.com/assets/images/mbr-1-1920x1279.jpg\">\n<meta property=\"og:url\" content=\"https://deine-schule.com/\">\n<meta name=\"twitter:card\" content=\"https://deine-schule.com/assets/images/mbr-1-1920x1279.jpg\">\n<meta property=\"og:site_name\" content=\"Wilhelm von Humboldt online Privatschule\">\n<meta name=\"twitter:image:alt\" content=\"Ortsunabhängiger online Unterricht mit hoher Qualität in kleinen Schulklassen\">",
         "footer_custom": "",
         "html_before": ""
       },
