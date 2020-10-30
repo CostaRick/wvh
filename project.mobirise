@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "impressum.html",
     "theme": {
       "name": "audiom4",
       "title": "AudioM4",
@@ -85,7 +85,7 @@
         "title": "Wilhelm von Humboldt Online Privatschule - die erste deutsche Online Schule",
         "meta_descr": "Die Wilhelm von Humboldt Fernschule bietet weltweit konsequenten Unterricht in deutscher Sprache nach den deutschen Lehrplänen. Als reine online Schule unterrichten wir die Stunden in kleinen Klassen von 8-14 Schülern im virtuellen Klassenraum mit Video-Chat. Unsere Lehrer unterrichten auch an deutschen Schulen und kennen das deutsche Schulsystem genau.",
         "header_custom": "\n<meta property=\"og:title\" content=\"Erste Deutschsprachige online Privatschule\">\n<meta property=\"og:description\" content=\"Ortsunabhängiger online Unterricht mit hoher Qualität in kleinen Schulklassen\">\n<meta property=\"og:image\" content=\"https://deine-schule.com/assets/images/mbr-1-1920x1279.jpg\">\n<meta property=\"og:url\" content=\"https://deine-schule.com/\">\n<meta name=\"twitter:card\" content=\"https://deine-schule.com/assets/images/mbr-1-1920x1279.jpg\">\n<meta property=\"og:site_name\" content=\"Wilhelm von Humboldt online Privatschule\">\n<meta name=\"twitter:image:alt\" content=\"Ortsunabhängiger online Unterricht mit hoher Qualität in kleinen Schulklassen\">",
-        "footer_custom": "",
+        "footer_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/8716917.js\"></script>\n<!-- End of HubSpot Embed Code -->",
         "html_before": "<meta charset=\"UTF-8\">\n<html lang=\"de\">"
       },
       "components": [
@@ -1413,7 +1413,8 @@
       "settings": {
         "title": "Aufnahmeantrag",
         "order": 12,
-        "meta_descr": "Hier können Sie sich um einen Platz bei uns bewerben und sehen die aktuelle Kostenstruktur."
+        "meta_descr": "Hier können Sie sich um einen Platz bei uns bewerben und sehen die aktuelle Kostenstruktur.",
+        "footer_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/8716917.js\"></script>\n<!-- End of HubSpot Embed Code -->"
       },
       "components": [
         {
@@ -2225,7 +2226,8 @@
         "title": "Technik",
         "order": 4,
         "header_custom": "",
-        "meta_descr": "Eine online Schule basiert auf einer modernen Technik. Unser Ziel ist es den Fokus auf den Unterricht und die Schüler zu setzen. Die Technik muss modern, aber unkompliziert sein."
+        "meta_descr": "Eine online Schule basiert auf einer modernen Technik. Unser Ziel ist es den Fokus auf den Unterricht und die Schüler zu setzen. Die Technik muss modern, aber unkompliziert sein.",
+        "footer_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/8716917.js\"></script>\n<!-- End of HubSpot Embed Code -->"
       },
       "components": [
         {
@@ -3005,7 +3007,8 @@
       "settings": {
         "title": "Impressum",
         "order": 14,
-        "meta_descr": ""
+        "meta_descr": "",
+        "footer_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/8716917.js\"></script>\n<!-- End of HubSpot Embed Code -->"
       },
       "components": [
         {
@@ -3667,7 +3670,8 @@
         "title": "Kollegium",
         "order": 9,
         "header_custom": "",
-        "meta_descr": "Eine gute Schule basiert auf gutem Unterricht. Die Technik ist die Lernumgebung, aber das Herz sind gute Lehrer. Lernen Sie uns kennen und schenken Sie uns Ihr Vertrauen."
+        "meta_descr": "Eine gute Schule basiert auf gutem Unterricht. Die Technik ist die Lernumgebung, aber das Herz sind gute Lehrer. Lernen Sie uns kennen und schenken Sie uns Ihr Vertrauen.",
+        "footer_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/8716917.js\"></script>\n<!-- End of HubSpot Embed Code -->"
       },
       "components": [
         {
@@ -4437,7 +4441,9 @@
       "settings": {
         "title": "Informationsgespraech",
         "order": 3,
-        "meta_descr": "Persönlicher Kontakt ist wichtig für uns. Auch eine Fernschule kann persönlich sein. Neue Konzepte müssen sich Ihr Vertrauen verdienen. Schreiben Sie uns wir rufen Sie an."
+        "meta_descr": "Persönlicher Kontakt ist wichtig für uns. Auch eine Fernschule kann persönlich sein. Neue Konzepte müssen sich Ihr Vertrauen verdienen. Schreiben Sie uns wir rufen Sie an.",
+        "header_custom": "",
+        "footer_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/8716917.js\"></script>\n<!-- End of HubSpot Embed Code -->"
       },
       "components": [
         {
@@ -5123,7 +5129,8 @@
         "title": "Mittelstufe",
         "order": 6,
         "header_custom": "",
-        "meta_descr": "Eine konsequente Online Schule mit Live-Unterricht über Video-Chat und virtuellem Klassenzimmer. Wir kümmern uns um unserer Schülerinen und Schüler. Wie wir eine moderne Lernumgebung als Auslandschule mit Persönlichkeit verbinden, können Sie hier nachlesen."
+        "meta_descr": "Eine konsequente Online Schule mit Live-Unterricht über Video-Chat und virtuellem Klassenzimmer. Wir kümmern uns um unserer Schülerinen und Schüler. Wie wir eine moderne Lernumgebung als Auslandschule mit Persönlichkeit verbinden, können Sie hier nachlesen.",
+        "footer_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/8716917.js\"></script>\n<!-- End of HubSpot Embed Code -->"
       },
       "components": [
         {
@@ -6591,7 +6598,8 @@
         "title": "Grundschule",
         "order": 5,
         "header_custom": "",
-        "meta_descr": "Eine online Grundschule basiert auf Persönlichkeit und Nähe. Wie das funktionieren soll? Lesen Sie hier."
+        "meta_descr": "Eine online Grundschule basiert auf Persönlichkeit und Nähe. Wie das funktionieren soll? Lesen Sie hier.",
+        "footer_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/8716917.js\"></script>\n<!-- End of HubSpot Embed Code -->"
       },
       "components": [
         {
@@ -7689,7 +7697,8 @@
       "settings": {
         "title": "Oberstufe",
         "order": 7,
-        "header_custom": ""
+        "header_custom": "",
+        "footer_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/8716917.js\"></script>\n<!-- End of HubSpot Embed Code -->"
       },
       "components": [
         {
@@ -8304,7 +8313,8 @@
         "title": "Ergänzungsunterricht",
         "order": 8,
         "header_custom": "",
-        "meta_descr": "Eine online Nachhilfeschule mit Ergänzungsunterricht für Auswanderer Schüler. Hier finden Sie schulbegleitenden Unterricht in deutscher Sprache an unserer deutschen Auslandsschule."
+        "meta_descr": "Eine online Nachhilfeschule mit Ergänzungsunterricht für Auswanderer Schüler. Hier finden Sie schulbegleitenden Unterricht in deutscher Sprache an unserer deutschen Auslandsschule.",
+        "footer_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/8716917.js\"></script>\n<!-- End of HubSpot Embed Code -->"
       },
       "components": [
         {
@@ -9302,7 +9312,8 @@
       "settings": {
         "title": "Deutsch als Fremdsprache",
         "order": 11,
-        "meta_descr": "Lernen Sie an unserer online Auslandschule Deutsch. Wir bieten Kurse für Erwachsene, Kinder und Jugendliche."
+        "meta_descr": "Lernen Sie an unserer online Auslandschule Deutsch. Wir bieten Kurse für Erwachsene, Kinder und Jugendliche.",
+        "footer_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/8716917.js\"></script>\n<!-- End of HubSpot Embed Code -->"
       },
       "components": [
         {
@@ -11040,7 +11051,8 @@
       "settings": {
         "title": "In der Presse",
         "order": 13,
-        "meta_descr": "News und Pressemitteilungen rund um die Wilhelm von Humboldt Fernschule"
+        "meta_descr": "News und Pressemitteilungen rund um die Wilhelm von Humboldt Fernschule",
+        "footer_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/8716917.js\"></script>\n<!-- End of HubSpot Embed Code -->"
       },
       "components": [
         {
@@ -11758,7 +11770,8 @@
     "sozialpaedagogischeberatung.html": {
       "settings": {
         "title": "Sozialpaedagogische_Beratung",
-        "order": 10
+        "order": 10,
+        "footer_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/8716917.js\"></script>\n<!-- End of HubSpot Embed Code -->"
       },
       "components": [
         {
