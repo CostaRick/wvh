@@ -75,7 +75,7 @@
       "textButton": "Agree"
     },
     "imageResize": true,
-    "publishChangesOnly": false,
+    "publishChangesOnly": true,
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-175786689-1\">\n</script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-175786689-1');\n</script>",
     "site_lang": "de"
   },
@@ -83,8 +83,8 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Wilhelm von Humboldt Online Privatschule - die erste deutsche Online Schule",
-        "meta_descr": "Die Wilhelm von Humboldt Fernschule bietet weltweit konsequenten Unterricht in deutscher Sprache nach den deutschen Lehrplänen. Als reine online Schule unterrichten wir die Stunden in kleinen Klassen von 8-14 Schülern im virtuellen Klassenraum mit Video-Chat. Unsere Lehrer unterrichten auch an deutschen Schulen und kennen das deutsche Schulsystem genau.",
+        "title": "Wilhelm von Humboldt Online Privatschule",
+        "meta_descr": "Die Wilhelm von Humboldt Fernschule bietet weltweit konsequenten online Unterricht in deutscher Sprache nach den deutschen Lehrplänen. ",
         "header_custom": "\n<meta property=\"og:title\" content=\"Erste Deutschsprachige online Privatschule\">\n<meta property=\"og:description\" content=\"Ortsunabhängiger online Unterricht mit hoher Qualität in kleinen Schulklassen\">\n<meta property=\"og:image\" content=\"https://deine-schule.com/assets/images/mbr-1-1920x1279.jpg\">\n<meta property=\"og:url\" content=\"https://deine-schule.com/\">\n<meta name=\"twitter:card\" content=\"https://deine-schule.com/assets/images/mbr-1-1920x1279.jpg\">\n<meta property=\"og:site_name\" content=\"Wilhelm von Humboldt online Privatschule\">\n<meta name=\"twitter:image:alt\" content=\"Ortsunabhängiger online Unterricht mit hoher Qualität in kleinen Schulklassen\">",
         "footer_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/8716917.js\"></script>\n<!-- End of HubSpot Embed Code -->",
         "html_before": "<meta charset=\"UTF-8\">\n<html lang=\"de\">"
