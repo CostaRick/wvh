@@ -42,7 +42,7 @@
         "url": "https://fonts.googleapis.com/css?family=DM+Sans:400,400i,500,500i,700,700i"
       }
     ],
-    "uniqCompNum": 224,
+    "uniqCompNum": 234,
     "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
     "noImageResize": null,
@@ -12760,7 +12760,8 @@
     "homeschooling.html": {
       "settings": {
         "title": "Online-Schooling und Homeschooling im Ländervergleich",
-        "order": 2
+        "order": 2,
+        "header_custom": ""
       },
       "components": [
         {
