@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "ergaenzungsunterricht.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "audiom4",
       "title": "AudioM4",
@@ -85,7 +85,7 @@
       "settings": {
         "main": true,
         "title": "Wilhelm von Humboldt Online Privatschule",
-        "meta_descr": "Die Wilhelm von Humboldt Fernschule bietet weltweit konsequenten online Unterricht in deutscher Sprache nach den deutschen Lehrplänen. ",
+        "meta_descr": "Unsere Online Schule bietet weltweiten online Unterricht in deutscher Sprache nach den deutschen Lehrplänen des Gymnasiums.",
         "header_custom": "\n<meta property=\"og:title\" content=\"Erste Deutschsprachige Online Privatschule\">\n<meta property=\"og:description\" content=\"Ortsunabhängiger online Unterricht mit hoher Qualität in kleinen Schulklassen\">\n<meta property=\"og:image\" content=\"https://deine-schule.com/assets/images/mbr-1-1920x1279.jpg\">\n<meta property=\"og:url\" content=\"https://deine-schule.com/\">\n<meta name=\"twitter:card\" content=\"https://deine-schule.com/assets/images/mbr-1-1920x1279.jpg\">\n<meta property=\"og:site_name\" content=\"Wilhelm von Humboldt Online Privatschule\">\n<meta name=\"twitter:image:alt\" content=\"Ortsunabhängiger online Unterricht mit hoher Qualität in kleinen Schulklassen\">",
         "footer_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/8716917.js\"></script>\n<!-- End of HubSpot Embed Code -->",
         "html_before": "<meta charset=\"UTF-8\">\n<html lang=\"de\">"
