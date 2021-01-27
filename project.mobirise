@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "In_der_Presse.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "audiom4",
       "title": "AudioM4",
@@ -31,7 +31,8 @@
       "additionalSetColors": [
         "#767676",
         "#f4f8fa",
-        "#2bdc9d"
+        "#2bdc9d",
+        "#00618d"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -44,7 +45,7 @@
         "url": "https://fonts.googleapis.com/css?family=DM+Sans:400,400i,500,500i,700,700i"
       }
     ],
-    "uniqCompNum": 282,
+    "uniqCompNum": 285,
     "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
     "noImageResize": null,
@@ -644,6 +645,149 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-title": {
+              "margin": "0"
+            },
+            ".underline": {
+              "margin-top": "-0.5rem",
+              "margin-bottom": "-0.5rem",
+              ".line": {
+                "width": "3rem",
+                "height": "2px",
+                "background": "@underlineColor",
+                "display": "inline-block"
+              }
+            },
+            ".slider-testimonials": {
+              "background": "fade(@itemsColor, 80%) none repeat scroll 0 0",
+              "display": "inline-block",
+              "outline": "1px solid fade(contrast(@itemsColor), 20%)",
+              "outline-offset": "-15px",
+              "padding": "65px 50px",
+              "position": "relative",
+              "text-align": "center"
+            },
+            ".carousel-item": {
+              "-webkit-justify-content": "center",
+              "justify-content": "center"
+            },
+            ".carousel-item.active, .carousel-item-next, .carousel-item-prev": {
+              "display": "flex"
+            },
+            ".carousel-control": {
+              "transition": "all .3s",
+              "opacity": "1",
+              "background-color": "@arrowsColor",
+              "color": "contrast(@arrowsColor)",
+              "position": "absolute",
+              "width": "40px",
+              "height": "40px",
+              "top": "46%",
+              "margin-top": "2rem",
+              "border-width": "1px",
+              "&.carousel-control-prev": {
+                "left": "-25px",
+                "&:hover": {
+                  "left": "-30px"
+                }
+              },
+              "&.carousel-control-next": {
+                "right": "-25px",
+                "&:hover": {
+                  "right": "-30px"
+                }
+              },
+              ".mbr-iconfont": {
+                "font-size": "1rem"
+              },
+              "&:hover": {
+                "background-color": "@primaryColor"
+              }
+            },
+            ".user_image": {
+              "width": "200px",
+              "height": "200px",
+              "margin-bottom": "1.6rem",
+              "overflow": "hidden",
+              "border-radius": "50%",
+              "margin": "0 auto 2rem auto",
+              "img": {
+                "width": "100%",
+                "min-width": "100%",
+                "min-height": "100%"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".carousel-control-prev,.carousel-control-next": {
+                "display": "none"
+              },
+              ".mbr-section-title": {
+                "padding-bottom": "0"
+              },
+              ".slider-testimonials": {
+                "padding": "2rem 1rem"
+              }
+            },
+            "@media (max-width: 230px)": {
+              ".user_image": {
+                "width": "100%",
+                "height": "auto"
+              }
+            },
+            ".carousel-row:hover": {
+              ".carousel-control": {
+                "visibility": "visible"
+              }
+            },
+            ".user_name, .user_desk": {
+              "text-align": "right"
+            },
+            "@media screen and (~'-ms-high-contrast: active'), (~'-ms-high-contrast: none')": {
+              ".slider-testimonials": {
+                "min-width": "100%",
+                "outline": "15px solid fade(@itemsColor, 80%)",
+                "border": "1px solid fade(contrast(@itemsColor), 20%)"
+              },
+              ".carousel-control-prev": {
+                "left": "-40px !important",
+                "&:hover": {
+                  "left": "-45px !important"
+                }
+              },
+              ".carousel-control-next": {
+                "right": "-40px !important",
+                "&:hover": {
+                  "right": "-45px !important"
+                }
+              }
+            },
+            ".user_text": {
+              "text-align": "left"
+            }
+          },
+          "_name": "extTestimonials18",
+          "_sourceTheme": "audiom4",
+          "_customHTML": "<section class=\"carousel slide testimonials-slider extTestimonials\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"BootstrapCarouselSwipe,mbr-testimonials-slider\" data-interval=\"false\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" title=\"Padding Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\" inline>\n        <input type=\"range\" title=\"Padding Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\" inline>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Underline\" name=\"showUnderline\" checked condition=\"showTitle\">\n        <input type=\"color\" title=\"Underline Color\" name=\"underlineColor\" value=\"#ffffff\" condition=\"showUnderline&&showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"range\" inline title=\"Count Items\" name=\"testimonialsSlides\" min=\"1\" max=\"20\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"showAutoplay\" checked>\n        <input type=\"range\" inline title=\"Autoplay Interval (ms)\" name=\"interval\" min=\"1000\" max=\"8000\" step=\"1000\" value=\"5000\" condition=\"showAutoplay\">\n        <input type=\"checkbox\" title=\"Show Author Name\" name=\"showName\" checked>\n        <input type=\"checkbox\" title=\"Show Author Title\" name=\"showDesk\" checked>\n        <input type=\"color\" title=\"Items Color\" name=\"itemsColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Arrows Color\" name=\"arrowsColor\" value=\"#232323\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background6.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#cccccc\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#0f7699\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n<!--     <div class=\"container-fluid\"> -->\n    <div class=\"container text-center\">\n        <h2 class=\" mbr-section-title mbr-fonts-style mbr-white\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title,.underline\">\n            Was unsere Eltern sagen</h2>\n        <div class=\"underline align-center\" mbr-if=\"showUnderline&&showTitle\">\n            <div class=\"line\"></div>\n        </div>\n        <h3 class=\"mbr-section-subtitle mbr-light mbr-fonts-style pt-3 mbr-white\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSubtitle\">\n            Schule ist eine Gemeinschaft, die gelebt wird.</h3>\n        <div class=\"row justify-content-center carousel-row\">\n            <div class=\"col-md-10\">\n                <div class=\"carousel slide pt-5\" role=\"listbox\" data-pause=\"true\" data-keyboard=\"false\" data-ride=\"{{showAutoplay ? 'carousel' : 'false'}}\" data-interval=\"{{showAutoplay ? interval : 'false'}}\">\n                    <div class=\"slider-testimonials\">\n                        <div mbr-list mbr-list-grow=\"testimonialsSlides\" class=\"carousel-inner\">\n                            <div class=\"carousel-item\">\n                                <div class=\"user col-md-8\">\n                                    <div class=\"user_image\">\n                                        <img src=\"@PROJECT_PATH@/assets/images/matthias3-400x573.jpeg\" alt=\"Parents Testimonial\">\n                                    </div>\n                                    <div class=\"user_text\">\n                                        <p class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".user_text\">Online‐Schule? Ganz sicher – aber richtig!\n<br>Wir leben in einer Patchwork‐Familie und sind beruflich oft unterwegs, so dass ein regelmäßiger\nSchulbesuch kaum möglich ist.\n<br>Dass wir die „Von Humboldt Schule“ gefunden haben, war ein echter Glücksfall!\n<br>Alle Lehrer, die wir bisher kennenlernen durften, holen jeden einzelnen Schüler dort ab, wo er vom&nbsp; Wissen und von seinen Interessen her gerade steht.\n<br>Dem Argument, dass doch beim Distanzlernen der persönliche Kontakt fehle, können wir absolut\n<br>nicht zustimmen. Zum einen bewegen sich Kinder und Jugendliche heute völlig frei in der digitalen\n<br>Welt. Kontakte zu Freunden oder Bekannten laufen wie selbstverständlich über die verschiedenen\n<br>Kanäle, ohne dass teilweise ein Unterschied zum persönlichen Treffen bemerkt wird.\n<br>Zum anderen stellt die Distanz gerade für Kinder, die nicht sofort auf andere Menschen zugehen eine\n<br>gute Möglichkeit dar, sich erst einmal zurückzunehmen, die einzelnen Personen kennenzulernen und\n<br>sich dann nach und nach immer mehr in die  Gruppe einzubringen. Dass die Gruppengrößen von der\n<br>Schulleitung so gewählt wurden, dass der Zahlenverhältnis Lehrer‐Schüler im Vergleich zur Präsenz‐\n<br>Schule geradezu paradiesisch ist, sei hier nur am Rand erwähnt.\n<br>Zusammenfassend möchten wir sagen, dass wir den Weg der „Von‐Humboldt Schule“ als&nbsp; richtungsweisend empfinden.\n<br>Wir wünschen der Schule, der Schulleitung und dem ganzen Kollegium auf diesem Weg weiterhin viel\n<br>Erfolg und Spaß daran, mit offenen SchülerInnen gemeinsam Schule zu gestalten.\n<br><br></p>\n                                    </div>\n                                    <div mbr-text class=\"user_name mbr-bold pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showName\" data-app-selector=\".user_name\">Matthias</div>\n                                    <div mbr-text class=\"user_desk mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showDesk\" data-app-selector=\".user_desk\">Vater einer Schülerin, 7.Klasse</div>\n                                </div>\n                            </div>\n                            <div class=\"carousel-item\">\n                                <div class=\"user col-md-8\">\n                                    <div class=\"user_image\">\n                                        <img src=\"@PROJECT_PATH@/assets/images/julia-profil-400x400.jpg\" alt=\"Testimonial Mutter online Schule\">\n                                    </div>\n                                    <div class=\"user_text\">\n                                        <p class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".user_text\">Mein Mann und ich sind selbständig und arbeiten ortsungebunden. Wir haben jahrelang vergeblich nach einer deutschen Onlineschule gesucht. Mit der „Wilhelm von Humboldt Schule“ haben wir nun endlich die Möglichkeit, zu reisen und meiner Tochter trotzdem eine kontinuierliche und hochwertige Ausbildung nach deutschem Standard zu ermöglichen. Egal wo wir sind, ihre Schule, Lehrer und ihre Klassenkameraden sind immer mit dabei.\n<br>Neas leiblicher Vater freut sich, dass die Besuche jetzt völlig unabhängig von Ferienzeiten und Wochenenden stattfinden können, und dass der Jahresurlaub nicht zur teuersten Reisezeit geplant werden muss. \n<br>Nea ist von Ihrer Schule begeistert. Ihre Lehrer gehen auf sie ein, ermöglichen Aufgabenstellungen zu ihren Hobbys. Sie wird nicht müde zu erklären, sie würde nie wieder „auf“ eine andere Schule gehen wollen.\n<br>Meine Tochter hatte in der Regelschule immer schlechte Noten im Mündlichen, jetzt beteiligt sie sich regelmäßig, viel und vor allem sehr gerne und freiwillig am Unterricht. Das Engagement der Lehrkräfte ist außerordentlich und sogar Mathe macht ihr wieder Spaß.\n<br>Die Ausbildung ist insgesamt auf sehr hohem Niveau und der tägliche Umgang mit digitalen Tools und Medien wird den Absolventen dieser Schule sicherlich große Vorteile für ihre berufliche Zukunft bringen.&nbsp;<br></p>\n                                    </div>\n                                    <div mbr-text class=\"user_name mbr-bold pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showName\" data-app-selector=\".user_name\">Juliane</div>\n                                    <div mbr-text class=\"user_desk mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showDesk\" data-app-selector=\".user_desk\">Mutter von Nea, 7. Klasse</div>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"carousel-controls\">\n                    <a class=\"carousel-control-prev carousel-control\" role=\"button\" data-slide=\"prev\">\n                      <span aria-hidden=\"true\" class=\"mbri-arrow-prev mbr-iconfont\"></span>\n                      <span class=\"sr-only\">Previous</span>\n                    </a>\n\n                    <a class=\"carousel-control-next carousel-control\" role=\"button\" data-slide=\"next\">\n                      <span aria-hidden=\"true\" class=\"mbri-arrow-next mbr-iconfont\"></span>\n                      <span class=\"sr-only\">Next</span>\n                    </a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "snkJti3L2n",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "extTestimonials18-7w"
         },
         {
           "alias": "mobirise4-blocks/components",
@@ -1980,7 +2124,7 @@
     "aufnahmeantrag.html": {
       "settings": {
         "title": "Aufnahmeantrag",
-        "order": 13,
+        "order": 14,
         "meta_descr": "Hier können Sie sich um einen Platz bei uns bewerben und sehen die aktuelle Kostenstruktur.",
         "footer_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/8716917.js\"></script>\n<!-- End of HubSpot Embed Code -->"
       },
@@ -3116,7 +3260,7 @@
     "technik.html": {
       "settings": {
         "title": "Technik",
-        "order": 3,
+        "order": 4,
         "header_custom": "",
         "meta_descr": "Eine online Schule basiert auf einer modernen Technik. Unser Ziel ist es den Fokus auf den Unterricht und die Schüler zu setzen. Die Technik muss modern, aber unkompliziert sein.",
         "footer_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/8716917.js\"></script>\n<!-- End of HubSpot Embed Code -->"
@@ -3898,7 +4042,7 @@
     "impressum.html": {
       "settings": {
         "title": "Impressum",
-        "order": 15,
+        "order": 16,
         "meta_descr": "",
         "footer_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/8716917.js\"></script>\n<!-- End of HubSpot Embed Code -->"
       },
@@ -4860,7 +5004,7 @@
     "kollegium.html": {
       "settings": {
         "title": "Kollegium",
-        "order": 10,
+        "order": 11,
         "header_custom": "",
         "meta_descr": "Eine gute Schule basiert auf gutem Unterricht. Die Technik ist die Lernumgebung, aber das Herz sind gute Lehrer. Lernen Sie uns kennen und schenken Sie uns Ihr Vertrauen.",
         "footer_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/8716917.js\"></script>\n<!-- End of HubSpot Embed Code -->"
@@ -5632,7 +5776,7 @@
     "gespraech.html": {
       "settings": {
         "title": "Informationsgespraech",
-        "order": 2,
+        "order": 3,
         "meta_descr": "Persönlicher Kontakt ist wichtig für uns. Auch eine Fernschule kann persönlich sein. Neue Konzepte müssen sich Ihr Vertrauen verdienen. Schreiben Sie uns wir rufen Sie an.",
         "header_custom": "",
         "footer_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/8716917.js\"></script>\n<!-- End of HubSpot Embed Code -->"
@@ -6619,7 +6763,7 @@
     "Sekundarstufe1.html": {
       "settings": {
         "title": "Mittelstufe",
-        "order": 7,
+        "order": 8,
         "header_custom": "",
         "meta_descr": "Eine konsequente Online Schule mit Live-Unterricht über Video-Chat und virtuellem Klassenzimmer. Wir kümmern uns um unserer Schülerinen und Schüler. Wie wir eine moderne Lernumgebung als Auslandschule mit Persönlichkeit verbinden, können Sie hier nachlesen.",
         "footer_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/8716917.js\"></script>\n<!-- End of HubSpot Embed Code -->"
@@ -8088,7 +8232,7 @@
     "Grundschule.html": {
       "settings": {
         "title": "Grundschule",
-        "order": 6,
+        "order": 7,
         "header_custom": "",
         "meta_descr": "Eine online Grundschule basiert auf Persönlichkeit und Nähe. Wie das funktionieren soll? Lesen Sie hier.",
         "footer_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/8716917.js\"></script>\n<!-- End of HubSpot Embed Code -->"
@@ -9190,7 +9334,7 @@
     "Oberstufe.html": {
       "settings": {
         "title": "Oberstufe",
-        "order": 8,
+        "order": 9,
         "header_custom": "",
         "footer_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/8716917.js\"></script>\n<!-- End of HubSpot Embed Code -->"
       },
@@ -9805,7 +9949,7 @@
     "ergaenzungsunterricht.html": {
       "settings": {
         "title": "Ergänzungsunterricht",
-        "order": 9,
+        "order": 10,
         "header_custom": "",
         "meta_descr": "Eine online Nachhilfeschule mit Ergänzungsunterricht für Auswanderer Schüler. Hier finden Sie schulbegleitenden Unterricht in deutscher Sprache an unserer deutschen Auslandsschule.",
         "footer_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/8716917.js\"></script>\n<!-- End of HubSpot Embed Code -->"
@@ -10805,7 +10949,7 @@
     "deutschalsfremdsprache.html": {
       "settings": {
         "title": "Deutsch als Fremdsprache",
-        "order": 12,
+        "order": 13,
         "meta_descr": "Lernen Sie an unserer online Auslandschule Deutsch. Wir bieten Kurse für Erwachsene, Kinder und Jugendliche.",
         "footer_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/8716917.js\"></script>\n<!-- End of HubSpot Embed Code -->"
       },
@@ -12544,7 +12688,7 @@
     "In_der_Presse.html": {
       "settings": {
         "title": "In der Presse",
-        "order": 14,
+        "order": 15,
         "meta_descr": "News und Pressemitteilungen rund um die Wilhelm von Humboldt Fernschule",
         "footer_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/8716917.js\"></script>\n<!-- End of HubSpot Embed Code -->"
       },
@@ -13327,7 +13471,7 @@
     "sozialpaedagogischeberatung.html": {
       "settings": {
         "title": "Sozialpaedagogische_Beratung",
-        "order": 11,
+        "order": 12,
         "footer_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/8716917.js\"></script>\n<!-- End of HubSpot Embed Code -->"
       },
       "components": [
@@ -14316,7 +14460,7 @@
     "homeschooling.html": {
       "settings": {
         "title": "Online-Schooling und Homeschooling im Ländervergleich",
-        "order": 1,
+        "order": 2,
         "header_custom": "",
         "meta_descr": "Wie flexibel sind die gesetzlichen Regelungen und Vorgaben der einzelnen Länder? - Hier finden Sie einen zusammenfassenden Überblick."
       },
@@ -15578,7 +15722,7 @@
     "Kooperationspartner.html": {
       "settings": {
         "title": "Kooperationspartner",
-        "order": 5,
+        "order": 6,
         "meta_descr": ""
       },
       "components": [
@@ -16203,7 +16347,7 @@
     "OnlineSchool.html": {
       "settings": {
         "title": "Wer entscheidet sich für eine Online-Schule?",
-        "order": 4,
+        "order": 5,
         "header_custom": "",
         "meta_descr": "Eine online Schule basiert auf einer modernen Technik. Unser Ziel ist es den Fokus auf den Unterricht und die Schüler zu setzen. Die Technik muss modern, aber unkompliziert sein.",
         "footer_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/8716917.js\"></script>\n<!-- End of HubSpot Embed Code -->"
