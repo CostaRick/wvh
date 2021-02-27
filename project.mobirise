@@ -794,6 +794,109 @@
         {
           "alias": "mobirise4-blocks/components",
           "_isSecondary": true,
+          "typeCompatible": "type",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value",
+              "& when (@gradientBg)": {
+                "background": "linear-gradient(0deg, @bg-value, @color2)"
+              }
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#8d97ad"
+            },
+            ".mbr-text": {
+              "color": "#8d97ad"
+            },
+            ".nav": {
+              "border": "none"
+            },
+            ".nav-tabs": {
+              "width": "100%",
+              ".nav-item": {
+                "margin-bottom": "1rem",
+                "width": "100%"
+              }
+            },
+            ".card-img": {
+              "overflow": "hidden",
+              "border-radius": ".25rem",
+              "-webkit-box-shadow": "0px 0px 30px fade(spin(desaturate(@infoColor, 75%), 12%), 30%)",
+              "box-shadow": "0px 0px 30px fade(spin(desaturate(@infoColor, 75%), 12%), 30%)"
+            },
+            ".mbr-section-btn": {
+              "margin-left": "0",
+              "margin-right": "0"
+            },
+            ".nav-tabs .nav-link": {
+              "display": "flex",
+              "color": "contrast(@tabColor)",
+              "box-sizing": "border-box",
+              "font-style": "normal",
+              "background": "@tabColor",
+              "font-weight": "500",
+              "padding": "1rem",
+              "border": "1px solid darken(@tabColor, 6.3%)",
+              "margin": "0px",
+              "border-radius": "0px !important",
+              "transition": "all .3s",
+              "&:hover": {
+                "background-color": "@activeTabColor1",
+                "color": "contrast(@activeTabColor1)"
+              },
+              "&.active": {
+                "font-weight": "500",
+                "color": "contrast(@activeTabColor1)",
+                "font-style": "normal",
+                "background": "@activeTabColor1"
+              },
+              "span": {
+                "margin-right": "0.5rem"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".nav-item": {
+                "display": "table-row !important"
+              }
+            },
+            ".modalWindow": {
+              "position": "fixed",
+              "z-index": "5000",
+              "left": "0",
+              "top": "0",
+              "background-color": "rgba(61, 61, 61, 0.65)",
+              "width": "100%",
+              "height": "100%",
+              ".modalWindow-container": {
+                "transform": "translateY(50vh) translateY(-22vw)"
+              },
+              ".modalWindow-video": {
+                "height": "(80vw / 1.778)",
+                "width": "80vw",
+                "margin": "0 auto"
+              }
+            }
+          },
+          "_name": "extTabs9",
+          "_sourceTheme": "audiom4",
+          "_customHTML": "<section class=\"extTabs tabs\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\" plugins=\"mobirise-tabs\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"5\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Tabs Titles\" name=\"showTitleTab\" checked>\n        <input type=\"checkbox\" title=\"Show Tabs Images\" name=\"showImages\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Tab Color\" name=\"tabColor\" value=\"#f4f8fa\">\n        <input type=\"color\" title=\"Active Tab Color\" name=\"activeTabColor1\" value=\"#ffffff\">\n        <select title=\"Tabs Count\" name=\"bootstrapTabs\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://youtu.be/iM-NestDPNQ\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"bg.type=='color'\" checked>\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#f4f8fa\" condition=\"gradientBg&&bg.type == 'color'\">\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <h2 class=\"mbr-section-title align-center mbr-fonts-style pb-3\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Antworten auf wichtige Fragen</h2>\n         <h3 class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style pb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\"> \n            Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n        </h3>\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-10\">\n                <div class=\"row\">\n                    <div class=\"col-md-4\">\n                        <ul class=\"nav nav-tabs\" role=\"tablist\" data-app-placeholder=\"Type Title\">\n                            <li mbr-buttons mbr-theme-style=\"display-7\" class=\"nav-item\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove\"><a class=\"nav-link mbr-fonts-style active\" role=\"tab\" data-toggle=\"tab\" href=\"#extTabs9-82_tab0\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                                    Ist die WvH anerkannt?</a></li>\n                            <li mbr-buttons mbr-theme-style=\"display-7\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 1\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\"><a class=\"nav-link mbr-fonts-style show active\" role=\"tab\" data-toggle=\"tab\" href=\"#extTabs9-82_tab1\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                                    Wie finden die Abschlussprüfungen statt?</a></li>\n                            <li mbr-buttons mbr-theme-style=\"display-7\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 2\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove\"><a class=\"nav-link mbr-fonts-style show active\" role=\"tab\" data-toggle=\"tab\" href=\"#extTabs9-82_tab2\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                                    Werden die Zeugnisse in Deutschland anerkannt?</a></li>\n                            <li mbr-buttons mbr-theme-style=\"display-7\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 3\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove\"><a class=\"nav-link mbr-fonts-style active show\" role=\"tab\" data-toggle=\"tab\" href=\"#extTabs9-y_tab3\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                                    Tab 4\n                                </a></li>\n                        </ul>\n                    </div>\n                    <div class=\"col-md-8\">\n                        <div class=\"tab-content\">\n                            <div id=\"tab1\" class=\"tab-pane in active\" role=\"tabpanel\">\n                                <div class=\"row\">\n                                    <div class=\"col-lg-12 pb-3\" mbr-if=\"showImages\">\n                                       <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/IAh2aF5a_Ic\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n                                    </div>\n                                    <div class=\"col-lg-12\">\n                                        <h4 class=\" display-2 align-left title-content pb-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitleTab\" data-app-selector=\".title-content\"> \n                                            Ist die Wilhelm von Humboldt Online Privatschule in Deutschland anerkannte Ersatzschule?</h4>\n                                        <p class=\"mbr-text mbr-fonts-style align-left\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text,.mbr-section-btn\"></p>\n                                        <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn-underline mr-3 text-info\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Read More</a></div>\n                                    </div>\n                                </div>\n                            </div>\n                            <div id=\"tab2\" class=\"tab-pane\" role=\"tabpanel\">\n                                <div class=\"row\">\n                                    <div class=\"col-lg-12 pb-3\" mbr-if=\"showImages\">\n                                       <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/GZtkyPlKkqw\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n                                    </div>\n                                   <div class=\"col-lg-12\">\n                                           <h4 class=\" display-2 align-left title-content pb-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitleTab\" data-app-selector=\".title-content\"> \n                                                         Wie finden die Abschlussprüfungen statt?</h4>\n                                        <p class=\"mbr-text mbr-fonts-style align-left\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem laudantium in adipisci ipsa optio quas id excepturi non, eos cupiditate, necessitatibus sapiente illo error. Vero adipisci quidem aut itaque labore.\n                                        </p>\n                                         <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                                            <a class=\"btn-underline mr-3 text-info\" href=\"https://mobiri.se\">Read More</a>\n                                        </div>\n                                    </div>\n                                </div>\n                            </div>\n                            <div id=\"tab3\" class=\"tab-pane\" role=\"tabpanel\">\n                                <div class=\"row\">\n                                    <div class=\"col-lg-12 pb-3\" mbr-if=\"showImages\">\n                                        <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Tiylc0nLrp4\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n                                    </div>\n                                    <div class=\"col-lg-12\">\n                                        <h4 class=\" display-2 align-left title-content pb-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitleTab\" data-app-selector=\".title-content\">Werden die Zeugnisse der Wilhelm von Humboldt Online Privatschule anerkannt?</h4>\n                                        <p class=\"mbr-text mbr-fonts-style align-left\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text,.mbr-section-btn\"></p>\n                                        <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                                            <a class=\"btn-underline mr-3 text-info\" href=\"https://mobiri.se\">Read More</a>\n                                        </div>\n                                    </div>\n                                </div>\n                            </div>\n                            <div id=\"tab4\" class=\"tab-pane\" role=\"tabpanel\">\n                                <div class=\"row\">\n                                    <div class=\"col-lg-12 pb-3\" mbr-if=\"showImages\">\n                                        <div class=\"card-img\"><img src=\"../_images/img/39.jpg\" alt></div>\n                                    </div>\n                                    <div class=\"col-lg-12\">\n                                        <h4 class=\" display-2 align-left title-content pb-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitleTab\" data-app-selector=\".title-content\"> \n                                            Lorem ipsum dolor sit amet\n                                        </h4>\n                                        <p class=\"mbr-text mbr-fonts-style align-left\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text,.mbr-section-btn\">\n                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem laudantium in adipisci ipsa optio quas id excepturi non, eos cupiditate, necessitatibus sapiente illo error. Vero adipisci quidem aut itaque labore.\n                                        </p>\n                                        <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                                            <a class=\"btn-underline mr-3 text-info\" href=\"https://mobiri.se\">Read More</a>\n                                        </div>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sqfzZzbZD3",
+          "_anchor": "extTabs9-82",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
           "typeCompatible": "!isAMP",
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
@@ -967,109 +1070,6 @@
           "_customHTML": "<section class=\"extHeader\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n        <input type=\"range\" title=\"Width Text\" name=\"widthText\" min=\"1\" max=\"6\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" name=\"border\" title=\"Border Color\" value=\"#ffffff\">\n\n        <select title=\"Align\" name=\"alignTitle\" condition=\"showTitle || showSubTitle || showText || showButtons\">\n            <option value=\"1\" selected>Left</option>\n            <option value=\"2\">Center</option>\n            <option value=\"3\">Right</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/berner001.png\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#808080\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.1\" condition=\"overlay&&bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-left\">\n        <div class=\"row\" mbr-class=\"{'justify-content-center': alignTitle==2, 'justify-content-end': alignTitle==3}\">\n            <div class=\"mbr-white\" mbr-class=\"{'col-lg-4 col-md-6': widthText == 1, 'col-lg-5 col-md-6': widthText == 2, 'col-lg-6 col-md-6': widthText == 3, 'col-lg-8 col-md-6': widthText == 4, 'col-lg-10 col-md-12': widthText == 5, 'col-md-12': widthText == 6}\">\n                <div class=\"wrapper\">\n                    <h2 class=\"mbr-section-title mbr-bold pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\"><br>Wir können nur dann global handeln, wenn wir beginnen global zu denken. Die Träume und Chancen aufgeben, weil Strukturen zu starr sind, sollte ein Relikt der Vergangenheit sein.\n<div>\n</div><div>Unter moderner Schulbildung verstehe ich das gemeinsame Streben von Lehrern, Schülerinnen und Schülern sowie Eltern nach der bestmöglichen Ausbildung ohne örtlich gebunden zu sein.<br><br>Fördern durch Fordern, aber nicht permanent überfordern. Seine Schüler kennen und verstehen. Dies sind Konzepte, die ich konsequent verfolge.</div><br><br><div>Unsere Gemeinschaft zeichnet sich durch Pioniergeist aus. Neue Wege finden und Herausforderungen angehen, wo sie auftauchen, das ist das Ziel von Kollegen, Eltern und Lernenden.\n</div><div>Wir freuen uns Sie in unserem Team begrüßen zu dürfen.</div><br><br><div><br></div></h2>\n                    <h3 class=\"mbr-section-subtitle align-left mbr-light pb-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubTitle\">Lorem ipsum</h3>\n                    <p class=\"mbr-text pb-2 align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Sascha Berner, Schulleiter</p>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-white-outline\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">Read More</a></div>\n                   <div> <img src=\"@PROJECT_PATH@/assets/images/2594px-rm-signature.svg.png\" title=\"mobirise\" alt=\"Mobirise\"></div>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_cid": "s3Or6JGxog",
           "_anchor": "extHeader1-c",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": "mobirise4-blocks/components",
-          "_isSecondary": true,
-          "typeCompatible": "type",
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value",
-              "& when (@gradientBg)": {
-                "background": "linear-gradient(0deg, @bg-value, @color2)"
-              }
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".mbr-section-subtitle": {
-              "color": "#8d97ad"
-            },
-            ".mbr-text": {
-              "color": "#8d97ad"
-            },
-            ".nav": {
-              "border": "none"
-            },
-            ".nav-tabs": {
-              "width": "100%",
-              ".nav-item": {
-                "margin-bottom": "1rem",
-                "width": "100%"
-              }
-            },
-            ".card-img": {
-              "overflow": "hidden",
-              "border-radius": ".25rem",
-              "-webkit-box-shadow": "0px 0px 30px fade(spin(desaturate(@infoColor, 75%), 12%), 30%)",
-              "box-shadow": "0px 0px 30px fade(spin(desaturate(@infoColor, 75%), 12%), 30%)"
-            },
-            ".mbr-section-btn": {
-              "margin-left": "0",
-              "margin-right": "0"
-            },
-            ".nav-tabs .nav-link": {
-              "display": "flex",
-              "color": "contrast(@tabColor)",
-              "box-sizing": "border-box",
-              "font-style": "normal",
-              "background": "@tabColor",
-              "font-weight": "500",
-              "padding": "1rem",
-              "border": "1px solid darken(@tabColor, 6.3%)",
-              "margin": "0px",
-              "border-radius": "0px !important",
-              "transition": "all .3s",
-              "&:hover": {
-                "background-color": "@activeTabColor1",
-                "color": "contrast(@activeTabColor1)"
-              },
-              "&.active": {
-                "font-weight": "500",
-                "color": "contrast(@activeTabColor1)",
-                "font-style": "normal",
-                "background": "@activeTabColor1"
-              },
-              "span": {
-                "margin-right": "0.5rem"
-              }
-            },
-            "@media (max-width: 767px)": {
-              ".nav-item": {
-                "display": "table-row !important"
-              }
-            },
-            ".modalWindow": {
-              "position": "fixed",
-              "z-index": "5000",
-              "left": "0",
-              "top": "0",
-              "background-color": "rgba(61, 61, 61, 0.65)",
-              "width": "100%",
-              "height": "100%",
-              ".modalWindow-container": {
-                "transform": "translateY(50vh) translateY(-22vw)"
-              },
-              ".modalWindow-video": {
-                "height": "(80vw / 1.778)",
-                "width": "80vw",
-                "margin": "0 auto"
-              }
-            }
-          },
-          "_name": "extTabs9",
-          "_sourceTheme": "audiom4",
-          "_customHTML": "<section class=\"extTabs tabs\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\" plugins=\"mobirise-tabs\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"5\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Tabs Titles\" name=\"showTitleTab\" checked>\n        <input type=\"checkbox\" title=\"Show Tabs Images\" name=\"showImages\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Tab Color\" name=\"tabColor\" value=\"#f4f8fa\">\n        <input type=\"color\" title=\"Active Tab Color\" name=\"activeTabColor1\" value=\"#ffffff\">\n        <select title=\"Tabs Count\" name=\"bootstrapTabs\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://youtu.be/iM-NestDPNQ\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"bg.type=='color'\" checked>\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#f4f8fa\" condition=\"gradientBg&&bg.type == 'color'\">\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <h2 class=\"mbr-section-title align-center mbr-fonts-style pb-3\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Antworten auf wichtige Fragen</h2>\n         <h3 class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style pb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\"> \n            Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n        </h3>\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-10\">\n                <div class=\"row\">\n                    <div class=\"col-md-4\">\n                        <ul class=\"nav nav-tabs\" role=\"tablist\" data-app-placeholder=\"Type Title\">\n                            <li mbr-buttons mbr-theme-style=\"display-7\" class=\"nav-item\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove\"><a class=\"nav-link mbr-fonts-style active\" role=\"tab\" data-toggle=\"tab\" href=\"#extTabs9-82_tab0\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                                    Ist die WvH anerkannt?</a></li>\n                            <li mbr-buttons mbr-theme-style=\"display-7\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 1\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\"><a class=\"nav-link mbr-fonts-style show active\" role=\"tab\" data-toggle=\"tab\" href=\"#extTabs9-82_tab1\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                                    Wie finden die Abschlussprüfungen statt?</a></li>\n                            <li mbr-buttons mbr-theme-style=\"display-7\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 2\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove\"><a class=\"nav-link mbr-fonts-style show active\" role=\"tab\" data-toggle=\"tab\" href=\"#extTabs9-82_tab2\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                                    Werden die Zeugnisse in Deutschland anerkannt?</a></li>\n                            <li mbr-buttons mbr-theme-style=\"display-7\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 3\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove\"><a class=\"nav-link mbr-fonts-style active show\" role=\"tab\" data-toggle=\"tab\" href=\"#extTabs9-y_tab3\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                                    Tab 4\n                                </a></li>\n                        </ul>\n                    </div>\n                    <div class=\"col-md-8\">\n                        <div class=\"tab-content\">\n                            <div id=\"tab1\" class=\"tab-pane in active\" role=\"tabpanel\">\n                                <div class=\"row\">\n                                    <div class=\"col-lg-12 pb-3\" mbr-if=\"showImages\">\n                                       <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/IAh2aF5a_Ic\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n                                    </div>\n                                    <div class=\"col-lg-12\">\n                                        <h4 class=\" display-2 align-left title-content pb-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitleTab\" data-app-selector=\".title-content\"> \n                                            Ist die Wilhelm von Humboldt Online Privatschule in Deutschland anerkannte Ersatzschule?</h4>\n                                        <p class=\"mbr-text mbr-fonts-style align-left\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text,.mbr-section-btn\"></p>\n                                        <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn-underline mr-3 text-info\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Read More</a></div>\n                                    </div>\n                                </div>\n                            </div>\n                            <div id=\"tab2\" class=\"tab-pane\" role=\"tabpanel\">\n                                <div class=\"row\">\n                                    <div class=\"col-lg-12 pb-3\" mbr-if=\"showImages\">\n                                       <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/GZtkyPlKkqw\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n                                    </div>\n                                   <div class=\"col-lg-12\">\n                                           <h4 class=\" display-2 align-left title-content pb-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitleTab\" data-app-selector=\".title-content\"> \n                                                         Wie finden die Abschlussprüfungen statt?</h4>\n                                        <p class=\"mbr-text mbr-fonts-style align-left\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem laudantium in adipisci ipsa optio quas id excepturi non, eos cupiditate, necessitatibus sapiente illo error. Vero adipisci quidem aut itaque labore.\n                                        </p>\n                                         <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                                            <a class=\"btn-underline mr-3 text-info\" href=\"https://mobiri.se\">Read More</a>\n                                        </div>\n                                    </div>\n                                </div>\n                            </div>\n                            <div id=\"tab3\" class=\"tab-pane\" role=\"tabpanel\">\n                                <div class=\"row\">\n                                    <div class=\"col-lg-12 pb-3\" mbr-if=\"showImages\">\n                                        <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Tiylc0nLrp4\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n                                    </div>\n                                    <div class=\"col-lg-12\">\n                                        <h4 class=\" display-2 align-left title-content pb-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitleTab\" data-app-selector=\".title-content\">Werden die Zeugnisse der Wilhelm von Humboldt Online Privatschule anerkannt?</h4>\n                                        <p class=\"mbr-text mbr-fonts-style align-left\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text,.mbr-section-btn\"></p>\n                                        <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                                            <a class=\"btn-underline mr-3 text-info\" href=\"https://mobiri.se\">Read More</a>\n                                        </div>\n                                    </div>\n                                </div>\n                            </div>\n                            <div id=\"tab4\" class=\"tab-pane\" role=\"tabpanel\">\n                                <div class=\"row\">\n                                    <div class=\"col-lg-12 pb-3\" mbr-if=\"showImages\">\n                                        <div class=\"card-img\"><img src=\"../_images/img/39.jpg\" alt></div>\n                                    </div>\n                                    <div class=\"col-lg-12\">\n                                        <h4 class=\" display-2 align-left title-content pb-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitleTab\" data-app-selector=\".title-content\"> \n                                            Lorem ipsum dolor sit amet\n                                        </h4>\n                                        <p class=\"mbr-text mbr-fonts-style align-left\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text,.mbr-section-btn\">\n                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem laudantium in adipisci ipsa optio quas id excepturi non, eos cupiditate, necessitatibus sapiente illo error. Vero adipisci quidem aut itaque labore.\n                                        </p>\n                                        <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                                            <a class=\"btn-underline mr-3 text-info\" href=\"https://mobiri.se\">Read More</a>\n                                        </div>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "sqfzZzbZD3",
-          "_anchor": "extTabs9-82",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_protectedParams": [],
