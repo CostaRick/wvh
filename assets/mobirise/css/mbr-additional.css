@@ -61,7 +61,7 @@ body {
   }
 }
 @media (max-width: 992px) {
-  .display-4 {
+  .display-4:not(.nav-link) {
     font-size: 0.66rem;
   }
 }
