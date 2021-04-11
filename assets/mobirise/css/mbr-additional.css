@@ -725,6 +725,10 @@ a {
 .cid-s3O9TXjnXf .mbr-text {
   color: #767676;
 }
+.cid-s3O9TXjnXf #videobg {
+  background: url(video.jpg) no-repeat;
+  background-size: cover;
+}
 .cid-so5kAtm4k9 {
   padding-top: 0px;
   padding-bottom: 0px;
