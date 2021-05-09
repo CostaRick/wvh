@@ -78,7 +78,7 @@
       "textButton": "Agree"
     },
     "imageResize": true,
-    "publishChangesOnly": true,
+    "publishChangesOnly": false,
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-175786689-1\">\n</script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-175786689-1');\n</script>",
     "site_lang": "de",
     "global_header_custom": "",
