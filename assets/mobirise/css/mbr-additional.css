@@ -13777,6 +13777,73 @@ a {
   background-color: transparent;
   margin-bottom: 0;
 }
+.cid-sx8MbY4JAe {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+.cid-sx8MbY4JAe .row {
+  border-top: 1px solid #f1f1f1;
+  padding-top: 2rem;
+}
+.cid-sx8MbY4JAe .mbr-text {
+  line-height: 1.5;
+  color: #656565;
+}
+.cid-sx8MbY4JAe .container2 {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.cid-sx8MbY4JAe .container2 input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.cid-sx8MbY4JAe .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+.cid-sx8MbY4JAe .container2:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+.cid-sx8MbY4JAe .container2 input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+.cid-sx8MbY4JAe .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.cid-sx8MbY4JAe .container2 input:checked ~ .checkmark:after {
+  display: block;
+}
+.cid-sx8MbY4JAe .container2 .checkmark:after {
+  left: 10px;
+  top: 7px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.cid-sx8MbY4JAe .mbr-section-title {
+  text-align: left;
+  color: #656565;
+}
 .cid-sx8imlFctm .dropdown-item:before {
   font-family: MobiriseIcons !important;
   content: '\e966';
