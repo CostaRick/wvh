@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "wissenschaft.html",
+    "currentPage": "info.html",
     "theme": {
       "name": "audiom4",
       "title": "AudioM4",
@@ -29,11 +29,13 @@
       "titlePreset": "Cover Band Demo",
       "nameSelectPreset": "band",
       "additionalSetColors": [
+        "#ffc300",
         "#767676",
         "#f4f8fa",
         "#2bdc9d",
         "#00618d",
-        "#f1f1f1"
+        "#f1f1f1",
+        "#0d0f09"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -46,7 +48,7 @@
         "url": "https://fonts.googleapis.com/css?family=DM+Sans:400,400i,500,500i,700,700i"
       }
     ],
-    "uniqCompNum": 326,
+    "uniqCompNum": 343,
     "versionPublish": "5.3.5",
     "screenshot": "screenshot.png",
     "noImageResize": null,
@@ -2287,7 +2289,7 @@
     "aufnahmeantrag.html": {
       "settings": {
         "title": "Aufnahmeantrag",
-        "order": 16,
+        "order": 17,
         "meta_descr": "Hier können Sie sich um einen Platz bei uns bewerben und sehen die aktuelle Kostenstruktur.",
         "footer_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/8716917.js\"></script>\n<!-- End of HubSpot Embed Code -->"
       },
@@ -3123,7 +3125,7 @@
     "technik.html": {
       "settings": {
         "title": "Technik",
-        "order": 7,
+        "order": 8,
         "header_custom": "",
         "meta_descr": "Eine online Schule basiert auf einer modernen Technik. Unser Ziel ist es den Fokus auf den Unterricht und die Schüler zu setzen. Die Technik muss modern, aber unkompliziert sein.",
         "footer_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/8716917.js\"></script>\n<!-- End of HubSpot Embed Code -->"
@@ -3905,7 +3907,7 @@
     "impressum.html": {
       "settings": {
         "title": "Impressum",
-        "order": 18,
+        "order": 19,
         "meta_descr": "",
         "footer_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/8716917.js\"></script>\n<!-- End of HubSpot Embed Code -->"
       },
@@ -4567,7 +4569,7 @@
     "kollegium.html": {
       "settings": {
         "title": "Kollegium",
-        "order": 14,
+        "order": 15,
         "header_custom": "",
         "meta_descr": "Eine gute Schule basiert auf gutem Unterricht. Die Technik ist die Lernumgebung, aber das Herz sind gute Lehrer. Lernen Sie uns kennen und schenken Sie uns Ihr Vertrauen.",
         "footer_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/8716917.js\"></script>\n<!-- End of HubSpot Embed Code -->"
@@ -5339,7 +5341,7 @@
     "gespraech.html": {
       "settings": {
         "title": "Informationsgespraech",
-        "order": 6,
+        "order": 7,
         "meta_descr": "Persönlicher Kontakt ist wichtig für uns. Auch eine Fernschule kann persönlich sein. Neue Konzepte müssen sich Ihr Vertrauen verdienen. Schreiben Sie uns wir rufen Sie an.",
         "header_custom": "",
         "footer_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/8716917.js\"></script>\n<!-- End of HubSpot Embed Code -->"
@@ -5923,7 +5925,7 @@
     "Sekundarstufe1.html": {
       "settings": {
         "title": "Mittelstufe",
-        "order": 11,
+        "order": 12,
         "header_custom": "",
         "meta_descr": "Eine konsequente Online Schule mit Live-Unterricht über Video-Chat und virtuellem Klassenzimmer. Wir kümmern uns um unserer Schülerinen und Schüler. Wie wir eine moderne Lernumgebung als Auslandschule mit Persönlichkeit verbinden, können Sie hier nachlesen.",
         "footer_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/8716917.js\"></script>\n<!-- End of HubSpot Embed Code -->"
@@ -7392,7 +7394,7 @@
     "Grundschule.html": {
       "settings": {
         "title": "Grundschule",
-        "order": 10,
+        "order": 11,
         "header_custom": "",
         "meta_descr": "Eine online Grundschule basiert auf Persönlichkeit und Nähe. Wie das funktionieren soll? Lesen Sie hier.",
         "footer_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/8716917.js\"></script>\n<!-- End of HubSpot Embed Code -->"
@@ -8520,7 +8522,7 @@
     "Oberstufe.html": {
       "settings": {
         "title": "Oberstufe",
-        "order": 12,
+        "order": 13,
         "header_custom": "",
         "footer_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/8716917.js\"></script>\n<!-- End of HubSpot Embed Code -->"
       },
@@ -9135,7 +9137,7 @@
     "ergaenzungsunterricht.html": {
       "settings": {
         "title": "Ergänzungsunterricht",
-        "order": 13,
+        "order": 14,
         "header_custom": "",
         "meta_descr": "Eine online Nachhilfeschule mit Ergänzungsunterricht für Auswanderer Schüler. Hier finden Sie schulbegleitenden Unterricht in deutscher Sprache an unserer deutschen Auslandsschule.",
         "footer_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/8716917.js\"></script>\n<!-- End of HubSpot Embed Code -->"
@@ -10159,7 +10161,7 @@
     "In_der_Presse.html": {
       "settings": {
         "title": "In der Presse",
-        "order": 17,
+        "order": 18,
         "meta_descr": "News und Pressemitteilungen rund um die Wilhelm von Humboldt Fernschule",
         "footer_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/8716917.js\"></script>\n<!-- End of HubSpot Embed Code -->"
       },
@@ -11005,7 +11007,7 @@
     "sozialpaedagogischeberatung.html": {
       "settings": {
         "title": "Sozialpaedagogische_Beratung",
-        "order": 15,
+        "order": 16,
         "footer_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/8716917.js\"></script>\n<!-- End of HubSpot Embed Code -->"
       },
       "components": [
@@ -11994,7 +11996,7 @@
     "homeschooling.html": {
       "settings": {
         "title": "Online-Schooling und Homeschooling im Ländervergleich",
-        "order": 5,
+        "order": 6,
         "header_custom": "",
         "meta_descr": "Wie flexibel sind die gesetzlichen Regelungen und Vorgaben der einzelnen Länder? - Hier finden Sie einen zusammenfassenden Überblick."
       },
@@ -12956,7 +12958,7 @@
     "Kooperationspartner.html": {
       "settings": {
         "title": "Kooperationspartner",
-        "order": 9,
+        "order": 10,
         "meta_descr": ""
       },
       "components": [
@@ -13581,7 +13583,7 @@
     "OnlineSchool.html": {
       "settings": {
         "title": "Wer entscheidet sich für eine Online-Schule?",
-        "order": 8,
+        "order": 9,
         "header_custom": "",
         "meta_descr": "Eine online Schule basiert auf einer modernen Technik. Unser Ziel ist es den Fokus auf den Unterricht und die Schüler zu setzen. Die Technik muss modern, aber unkompliziert sein.",
         "footer_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/8716917.js\"></script>\n<!-- End of HubSpot Embed Code -->"
@@ -14905,7 +14907,7 @@
     "InformatikProfil.html": {
       "settings": {
         "title": "Informatik Profil",
-        "order": 2,
+        "order": 3,
         "meta_descr": "Informatik als Hauptfach an der Wilhelm von Humboldt Online Privatschule"
       },
       "components": [
@@ -15442,7 +15444,7 @@
     "blickindenunterricht.html": {
       "settings": {
         "title": "Probestunden",
-        "order": 4,
+        "order": 5,
         "header_custom": ""
       },
       "components": [
@@ -16505,7 +16507,7 @@
           },
           "_name": "content6",
           "_sourceTheme": "audiom4",
-          "_customHTML": "<section class=\"content6 audiom4_content6\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"11\" condition=\"fullScreen == false\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"4\" condition=\"fullScreen == false\">\n\t\t<input type=\"range\" inline title=\"Items\" name=\"menuItems1\" min=\"1\" max=\"15\" step=\"1\" value=\"4\">\n\t\t<header>Show / Hide</header>\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubTitle\">\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showmainTitle\" checked>\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\" parallax>\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n\t<div class=\"container\">\n\t\t<div class=\"row justify-content-center\">\n\t\t\t<div class=\"mbr-black col-md-12 col-lg-12\">\n\t\t\t\t<div class=\"title-align align-center\">\n\t\t\t\t\t<h2 class=\"mbr-section-subtitle mbr-semibold align-center mbr-light mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle, .title-align\" mbr-theme-style=\"display-4\" mbr-if=\"showSubTitle\">\n\t\t\t\t\t\taktuelle</h2>\n\t\t\t\t</div>\n\t\t\t\t<h1 class=\"mbr-section-title align-center mbr-bold pb-5 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showmainTitle\">Informationsveranstaltungen</h1>\n\t\t\t</div>\n\n\t\t\t<div class=\"col-12 list-col col-md-12 col-lg-12 md-pb\">\n\t\t\t\t<ul class=\"list\" mbr-list mbr-list-grow=\"menuItems1\">\n\t\t\t\t\t<li class=\"item-wrap\">\n\t\t\t\t\t\t<div class=\"date-wrap\">\n\t\t\t\t\t\t\t<h3 mbr-text class=\"mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\">Montag</h3>\n\n\t\t\t\t\t\t\t<h4 mbr-text class=\"mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\"></h4>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"location-wrap\">\n\t\t\t\t\t\t\t<h5 mbr-text class=\"mbr-bold align-left pb-1 mbr-fonts-style\" mbr-theme-style=\"display-5\">\n\t\t\t\t\t\t\t\t15 Uhr Mitteleuropäischer Zeit<br></h5>\n\t\t\t\t\t\t\t<div class=\"icon-wrap\">\n\t\t\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont mobi-mbri-map-pin mobi-mbri\"></span>\n\t\t\t\t\t\t\t\t<h6 mbr-text class=\"location mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".location, .icon-wrap\">\n\t\t\t\t\t\t\t\t\tWonder Online Kongresslounge</h6>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"mbr-section-btn align-right\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary-outline\" href=\"https://www.wonder.me/r?id=f3cdf73e-e09a-4721-9914-1b72829ab5f5\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mbrib-cursor-click mbr-iconfont mbr-iconfont-btn\"></span>Hier klicken um zum angegebenen Zeitpunkt teilzunehmen</a></div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li class=\"item-wrap\">\n\t\t\t\t\t\t<div class=\"date-wrap\">\n\t\t\t\t\t\t\t<h3 mbr-text class=\"mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\">Dienstag</h3>\n\n\t\t\t\t\t\t\t<h4 mbr-text class=\"mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\"></h4>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"location-wrap\">\n\t\t\t\t\t\t\t<h5 mbr-text class=\"mbr-bold align-left pb-1 mbr-fonts-style\" mbr-theme-style=\"display-5\"><div>20 Uhr Mitteleuropäischer Zeit</div></h5>\n\t\t\t\t\t\t\t<div class=\"icon-wrap\">\n\t\t\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont mobi-mbri-map-pin mobi-mbri\"></span>\n\t\t\t\t\t\t\t\t<h6 mbr-text class=\"location mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".location, .icon-wrap\">Wonder Online Kongresslounge</h6>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"mbr-section-btn align-right\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary-outline\" href=\"https://www.wonder.me/r?id=f3cdf73e-e09a-4721-9914-1b72829ab5f5\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mbrib-cursor-click mbr-iconfont mbr-iconfont-btn\"></span>Hier klicken um zum angegebenen Zeitpunkt teilzunehmen</a></div>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li class=\"item-wrap\">\n\t\t\t\t\t\t<div class=\"date-wrap\">\n\t\t\t\t\t\t\t<h3 mbr-text class=\"mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\">Mittwoch</h3>\n\n\t\t\t\t\t\t\t<h4 mbr-text class=\"mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\"></h4>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"location-wrap\">\n\t\t\t\t\t\t\t<h5 mbr-text class=\"mbr-bold align-left pb-1 mbr-fonts-style\" mbr-theme-style=\"display-5\"><div>15 Uhr Mitteleuropäischer Zeit</div></h5>\n\t\t\t\t\t\t\t<div class=\"icon-wrap\">\n\t\t\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont mobi-mbri-map-pin mobi-mbri\"></span>\n\t\t\t\t\t\t\t\t<h6 mbr-text class=\"location mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".location, .icon-wrap\">Wonder Online Kongresslounge</h6>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"mbr-section-btn align-right\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary-outline\" href=\"https://www.wonder.me/r?id=f3cdf73e-e09a-4721-9914-1b72829ab5f5\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mbrib-cursor-click mbr-iconfont mbr-iconfont-btn\"></span>Hier klicken um zum angegebenen Zeitpunkt teilzunehmen</a></div>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li class=\"item-wrap\">\n\t\t\t\t\t\t<div class=\"date-wrap\">\n\t\t\t\t\t\t\t<h3 mbr-text class=\"mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\">Freitag</h3>\n\n\t\t\t\t\t\t\t<h4 mbr-text class=\"mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\"></h4>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"location-wrap\">\n\t\t\t\t\t\t\t<h5 mbr-text class=\"mbr-bold align-left pb-1 mbr-fonts-style\" mbr-theme-style=\"display-5\">20 Uhr Mitteleuropäischer Zeit<br>(entfällt am Freitag, 28. Mai)</h5>\n\t\t\t\t\t\t\t<div class=\"icon-wrap\">\n\t\t\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont mobi-mbri-map-pin mobi-mbri\"></span>\n\t\t\t\t\t\t\t\t<h6 mbr-text class=\"location mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".location, .icon-wrap\">Wonder Online Kongresslounge</h6>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"mbr-section-btn align-right\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary-outline\" href=\"https://www.wonder.me/r?id=f3cdf73e-e09a-4721-9914-1b72829ab5f5\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mbrib-cursor-click mbr-iconfont mbr-iconfont-btn\"></span>Hier klicken um zum angegebenen Zeitpunkt teilzunehmen</a></div>\n\t\t\t\t\t</li>\n\t\t\t\t\t\n\t\t\t\t</ul>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
+          "_customHTML": "<section class=\"content6 audiom4_content6\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"11\" condition=\"fullScreen == false\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"4\" condition=\"fullScreen == false\">\n\t\t<input type=\"range\" inline title=\"Items\" name=\"menuItems1\" min=\"1\" max=\"15\" step=\"1\" value=\"4\">\n\t\t<header>Show / Hide</header>\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubTitle\">\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showmainTitle\" checked>\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\" parallax>\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n\t<div class=\"container\">\n\t\t<div class=\"row justify-content-center\">\n\t\t\t<div class=\"mbr-black col-md-12 col-lg-12\">\n\t\t\t\t<div class=\"title-align align-center\">\n\t\t\t\t\t<h2 class=\"mbr-section-subtitle mbr-semibold align-center mbr-light mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle, .title-align\" mbr-theme-style=\"display-4\" mbr-if=\"showSubTitle\">\n\t\t\t\t\t\taktuelle</h2>\n\t\t\t\t</div>\n\t\t\t\t<h1 class=\"mbr-section-title align-center mbr-bold pb-5 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showmainTitle\">Informationsveranstaltungen</h1>\n\t\t\t</div>\n\n\t\t\t<div class=\"col-12 list-col col-md-12 col-lg-12 md-pb\">\n\t\t\t\t<ul class=\"list\" mbr-list mbr-list-grow=\"menuItems1\">\n\t\t\t\t\t<li class=\"item-wrap\">\n\t\t\t\t\t\t<div class=\"date-wrap\">\n\t\t\t\t\t\t\t<h3 mbr-text class=\"mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\">Montag</h3>\n\n\t\t\t\t\t\t\t<h4 mbr-text class=\"mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\"></h4>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"location-wrap\">\n\t\t\t\t\t\t\t<h5 mbr-text class=\"mbr-bold align-left pb-1 mbr-fonts-style\" mbr-theme-style=\"display-5\">\n\t\t\t\t\t\t\t\t15 Uhr Mitteleuropäischer Zeit<br></h5>\n\t\t\t\t\t\t\t<div class=\"icon-wrap\">\n\t\t\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont mobi-mbri-map-pin mobi-mbri\"></span>\n\t\t\t\t\t\t\t\t<h6 mbr-text class=\"location mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".location, .icon-wrap\">\n\t\t\t\t\t\t\t\t\tWonder Online Kongresslounge</h6>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"mbr-section-btn align-right\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary-outline\" href=\"https://www.wonder.me/r?id=f3cdf73e-e09a-4721-9914-1b72829ab5f5\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mbrib-cursor-click mbr-iconfont mbr-iconfont-btn\"></span>Hier klicken um zum angegebenen Zeitpunkt teilzunehmen</a></div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li class=\"item-wrap\">\n\t\t\t\t\t\t<div class=\"date-wrap\">\n\t\t\t\t\t\t\t<h3 mbr-text class=\"mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\">Dienstag</h3>\n\n\t\t\t\t\t\t\t<h4 mbr-text class=\"mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\"></h4>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"location-wrap\">\n\t\t\t\t\t\t\t<h5 mbr-text class=\"mbr-bold align-left pb-1 mbr-fonts-style\" mbr-theme-style=\"display-5\"><div>20 Uhr Mitteleuropäischer Zeit</div></h5>\n\t\t\t\t\t\t\t<div class=\"icon-wrap\">\n\t\t\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont mobi-mbri-map-pin mobi-mbri\"></span>\n\t\t\t\t\t\t\t\t<h6 mbr-text class=\"location mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".location, .icon-wrap\">Wonder Online Kongresslounge</h6>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"mbr-section-btn align-right\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary-outline\" href=\"https://www.wonder.me/r?id=f3cdf73e-e09a-4721-9914-1b72829ab5f5\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mbrib-cursor-click mbr-iconfont mbr-iconfont-btn\"></span>Hier klicken um zum angegebenen Zeitpunkt teilzunehmen</a></div>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li class=\"item-wrap\">\n\t\t\t\t\t\t<div class=\"date-wrap\">\n\t\t\t\t\t\t\t<h3 mbr-text class=\"mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\">Mittwoch</h3>\n\n\t\t\t\t\t\t\t<h4 mbr-text class=\"mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\"></h4>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"location-wrap\">\n\t\t\t\t\t\t\t<h5 mbr-text class=\"mbr-bold align-left pb-1 mbr-fonts-style\" mbr-theme-style=\"display-5\"><div>15 Uhr Mitteleuropäischer Zeit</div></h5>\n\t\t\t\t\t\t\t<div class=\"icon-wrap\">\n\t\t\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont mobi-mbri-map-pin mobi-mbri\"></span>\n\t\t\t\t\t\t\t\t<h6 mbr-text class=\"location mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".location, .icon-wrap\">Wonder Online Kongresslounge</h6>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"mbr-section-btn align-right\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary-outline\" href=\"https://www.wonder.me/r?id=f3cdf73e-e09a-4721-9914-1b72829ab5f5\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mbrib-cursor-click mbr-iconfont mbr-iconfont-btn\"></span>Hier klicken um zum angegebenen Zeitpunkt teilzunehmen</a></div>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li class=\"item-wrap\">\n\t\t\t\t\t\t<div class=\"date-wrap\">\n\t\t\t\t\t\t\t<h3 mbr-text class=\"mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\">Freitag</h3>\n\n\t\t\t\t\t\t\t<h4 mbr-text class=\"mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\"></h4>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"location-wrap\">\n\t\t\t\t\t\t\t<h5 mbr-text class=\"mbr-bold align-left pb-1 mbr-fonts-style\" mbr-theme-style=\"display-5\">20 Uhr Mitteleuropäischer Zeit<br></h5>\n\t\t\t\t\t\t\t<div class=\"icon-wrap\">\n\t\t\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont mobi-mbri-map-pin mobi-mbri\"></span>\n\t\t\t\t\t\t\t\t<h6 mbr-text class=\"location mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".location, .icon-wrap\">Wonder Online Kongresslounge</h6>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<div class=\"mbr-section-btn align-right\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary-outline\" href=\"https://www.wonder.me/r?id=f3cdf73e-e09a-4721-9914-1b72829ab5f5\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mbrib-cursor-click mbr-iconfont mbr-iconfont-btn\"></span>Hier klicken um zum angegebenen Zeitpunkt teilzunehmen</a></div>\n\t\t\t\t\t</li>\n\t\t\t\t\t\n\t\t\t\t</ul>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
           "_cid": "sx8y2xXON1",
           "_anchor": "Infoveranstaltungen",
           "_PHPplaceholders": [],
@@ -17560,7 +17562,7 @@
     "wissenschaft.html": {
       "settings": {
         "title": "Wissenschaftliche Begleitung",
-        "order": 3,
+        "order": 4,
         "meta_descr": "Informatik als Hauptfach an der Wilhelm von Humboldt Online Privatschule"
       },
       "components": [
@@ -18130,12 +18132,12 @@
           "_customHTML": "<section class=\"content3 audiom4_content3\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,'mbr-parallax-background': bg.parallax}\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"10\" max=\"15\" step=\"1\" value=\"12\" condition=\"fullScreen == false\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"5\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\t\t<header>Show / Hide</header>\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Text Title\" name=\"showtextTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n\t\t<input type=\"checkbox\" title=\"Signature\" name=\"showSignature\" checked>\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/susanneprediger-2000x1334.jpg\" parallax>\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#f1f1f1\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n\t<div class=\"container\">\n\t\t<div class=\"row justify-content-center\">\n\t\t\t<div class=\"mbr-black col-md-12 col-lg-10\">\n\t\t\t\t<div class=\"title-align align-center\">\n\t\t\t\t\t<h3 class=\"mbr-section-subtitle mbr-semibold align-center mbr-light mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle, .title-align\" mbr-theme-style=\"display-4\" mbr-if=\"showSubTitle\">Deutsch</h3>\n\t\t\t\t</div>\n\t\t\t\t<h1 class=\"mbr-section-title align-center mbr-bold pb-5 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Prof. Dr. Inga Harren</h1>\n\t\t\t\t<h2 class=\"mbr-section-title align-left mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showtextTitle\">Pädagogische Hochschule Heidelberg<div>Fakultät für Deutsche Sprache und deren Didaktik</div><div><br></div><div><br></div></h2>\n\t\t\t\t<p class=\"mbr-text pb-3 align-left mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .img-align\">Inga Harren von der Pädagogischen Hochschule Heidelberg erforscht die sprachliche Entwicklung und Sprachförderungsmöglichkeiten im Bereich Lesen und Schreiben.\n<br>\n<br>Forschungsschwerpunkte<br>\n<br>Sprechen und Kommunizieren/ Konversationsanalyse/ Conversation Analysis\n<br>Interaktionstrainings, z.B. für angehende Lehrer/innen\n<br>Sprachförderung in der Interaktion\n<br>Wissen in der Interaktion\n<br><br>Schreiben\n<br>Quelltextnähe beim materialgestützten Schreiben (Plagiat, <i>patch-writing</i>, eigenständiges Formulieren)\n<br>materialgestütztes Schreiben (<i>writing from sources</i>, Sachtexte)\n<br>Formulieren &amp; grammatisches Können<br>Prozessorientierung beim Schreiben von Sachtexten\n<br>Textüberarbeitungen\n<br><br>Lesen\n<br>Orientierendes Lesen\n<br><i>reading-to-write\n<br>writing from sources</i><br><br></p>\n\n\t\t\t\t<div class=\"img-align align-center\" mbr-if=\"showSignature\">\n\t\t\t\t\t<img class=\"signature\" src=\"@PROJECT_PATH@/assets/images/ingaharren-712x503.jpg\" alt=\"Inga Harren\">\n\t\t\t\t</div>\n\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
           "_cid": "syDFyQiAXl",
           "_anchor": "content3-90",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_PHPplaceholders": [],
-          "_JSplaceholders": []
+          "_params": {}
         },
         {
           "alias": false,
@@ -18178,6 +18180,913 @@
           "_anchor": "content3-91",
           "_isUserblock": true,
           "_cid": "syPjeYVNXa",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "nationalpark.html": {
+      "settings": {
+        "title": "Aufforstungsprojekt",
+        "order": 2,
+        "meta_descr": "Persönlicher Kontakt ist wichtig für uns. Auch eine Fernschule kann persönlich sein. Neue Konzepte müssen sich Ihr Vertrauen verdienen. Schreiben Sie uns wir rufen Sie an.",
+        "header_custom": "",
+        "footer_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/8716917.js\"></script>\n<!-- End of HubSpot Embed Code -->"
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "h1": {
+              "background-color": "transparent",
+              "overflow": "hidden",
+              "display": "inline-block",
+              "color": "transparent",
+              "line-height": "1",
+              "margin-bottom": "15rem"
+            },
+            "h1 span": {
+              "background-image": "url(@textbg)",
+              "background-size": "1920px 600px",
+              "background-position": "center",
+              "-webkit-text-fill-color": "transparent",
+              "-webkit-background-clip": "text",
+              "display": "block",
+              "animation": "scroll 14s infinite linear",
+              "pointer-events": "none"
+            },
+            "@keyframes scroll": {
+              "0%": {
+                "background-position-y": "0px"
+              },
+              "99.999%": {
+                "background-position-y": "-600px"
+              },
+              "100%": {
+                "background-position-y": "0px"
+              }
+            },
+            ".icons-wrap": {
+              "background": "@boxbg",
+              "display": "flex",
+              "justify-content": "center",
+              "box-shadow": "1px 35px 60px 1px rgba(0, 0, 0, 0.1)"
+            },
+            ".mbr-iconfont": {
+              "font-size": "1.8rem",
+              "color": "@iconcolor !important",
+              "padding-top": "0.4rem",
+              "padding-right": "1rem"
+            },
+            ".icon-wrap": {
+              "display": "flex",
+              "align-items": "center",
+              "padding": "1rem 2rem"
+            },
+            "h2": {
+              "padding": "0",
+              "margin": "0"
+            },
+            "@media (max-width: 992px)": {
+              ".icons-wrap": {
+                "flex-direction": "column",
+                "align-items": "center",
+                "width": "fit-content",
+                "margin": "auto"
+              },
+              "h1": {
+                "margin-bottom": "8rem"
+              }
+            }
+          },
+          "_name": "header4",
+          "_sourceTheme": "audiom4",
+          "_customHTML": "<section class=\"header4 audiom4_header4\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"25\" step=\"1\" value=\"15\" condition=\"fullScreen == false\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"25\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\t\t<header>Show / Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Arrow\" name=\"showArrow\" condition=\"fullScreen\">\n\t\t<input type=\"image\" name=\"textbg\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1276.jpg\" title=\"Text BG Image\">\n\t\t<input type=\"range\" inline title=\"Items\" name=\"items\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n\t\t<input type=\"color\" name=\"boxbg\" value=\"#ffffff\" title=\"Items BG\">\n\t\t<input type=\"color\" name=\"iconcolor\" value=\"#000000\" title=\"Icons Color\">\n\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" value=\"../_images/background3.jpg\" title=\"Image\" parallax>\n\t\t\t<input type=\"color\" value=\"#ffffff\" title=\"Color\">\n\t\t\t<input type=\"video\" value=\"https://youtu.be/zjYoBlWL4_g\" title=\"Video\" selected>\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n\t\t<input type=\"color\" title=\"Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n\n\t<div class=\"container align-center\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"col-lg-12 col-md-12\">\n\t\t\t\t<h1 class=\"mbr-section-title mbr-bold align-center mbr-white mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n\t\t\t\t\t<span>Unsere Schulfamilie rettet jeden Tag ein Stück vom Regenwald Costa Ricas</span>\n\t\t\t\t</h1>\n\n\t\t\t\t<div class=\"icons-wrap\">\n\t\t\t\t\t<div class=\"icon-wrap\" mbr-if=\"items > 0\">\n\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont sli-globe\"></span>\n\t\t\t\t\t\t<h2 class=\"icon-text mbr-bold align-left mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".icon-text\">\n\t\t\t\t\t\t\tCosta Rica</h2>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div class=\"icon-wrap\" mbr-if=\"items > 1\">\n\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont icon54-v1-treehouse\"></span>\n\t\t\t\t\t\t<h2 class=\"icon-text mbr-bold align-left mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".icon-text\">das Schutzgebiet</h2>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div class=\"icon-wrap\" mbr-if=\"items > 2\">\n\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont imind-affiliate\"></span>\n\t\t\t\t\t\t<h2 class=\"icon-text mbr-bold align-left mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".icon-text\">\n\t\t\t\t\t\t\tFreiwilligen-Programm</h2>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div class=\"icon-wrap\" mbr-if=\"items > 3\">\n\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont mbri-image-gallery\"></span>\n\t\t\t\t\t\t<h2 class=\"icon-text mbr-bold align-left mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".icon-text\">\n\t\t\t\t\t\t\tGalerie</h2>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t<div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n\t\t<a href=\"#next\">\n\t\t\t<i class=\"mbri-arrow-down mbr-iconfont\"></i>\n\t\t</a>\n\t</div>\n</section>",
+          "_cid": "syWbDHlX0K",
+          "_anchor": "header4-9e",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".card-box": {
+              "z-index": "10",
+              "position": "relative"
+            },
+            ".card": {
+              "padding": "0 !important"
+            },
+            "p": {
+              "width": "fit-content",
+              "position": "relative",
+              "display": "inline-block",
+              "cursor": "pointer",
+              "font-weight": "600",
+              "&:before": {
+                "content": "''",
+                "display": "block",
+                "position": "absolute",
+                "bottom": "0",
+                "left": "0",
+                "z-index": "-1",
+                "opacity": ".3",
+                "height": "50%",
+                "width": "100%",
+                "background-color": "currentColor",
+                "transform-origin": "right top",
+                "transform": "scale(0, 1)",
+                "transition": "transform 0.3s ease-out"
+              },
+              "&:hover": {
+                "&:before": {
+                  "transform-origin": "left top",
+                  "transform": "scale(1, 1)"
+                }
+              },
+              "margin-bottom": "0"
+            },
+            ".container-fluid": {
+              "padding": "0"
+            },
+            ".card-wrapper": {
+              "background-position": "center",
+              "height": "100%",
+              "padding": "13rem 3rem",
+              "background-size": "cover",
+              "transition": "all 0.3s",
+              "&:before": {
+                "content": "''",
+                "position": "absolute",
+                "top": "0",
+                "left": "0",
+                "transition": "all 0.3s",
+                "width": "100%",
+                "height": "100%",
+                "background": "black",
+                "opacity": "0.2"
+              },
+              "&:hover": {
+                "transform": "scale(1.05)",
+                "z-index": "11",
+                "&:before": {
+                  "opacity": "0.4"
+                }
+              }
+            },
+            ".card1": {
+              "background-image": "url(@card1bg)",
+              "z-index": "4"
+            },
+            ".card2": {
+              "background-image": "url(@card2bg)",
+              "z-index": "3"
+            },
+            ".card3": {
+              "background-image": "url(@card3bg)",
+              "z-index": "2"
+            },
+            ".card4": {
+              "background-image": "url(@card4bg)",
+              "z-index": "1"
+            },
+            "h4": {
+              "font-weight": "500",
+              "margin-bottom": "0",
+              "padding-top": "2rem"
+            },
+            ".btn": {
+              "margin": "0 !important",
+              "padding": "1rem 2rem"
+            },
+            "@media (max-width: 1400px)": {
+              ".card-wrapper": {
+                "padding": "13rem 2rem"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".card-wrapper": {
+                "padding": "13rem 2rem"
+              },
+              ".card-box": {
+                "text-align": "center"
+              }
+            },
+            ".mbr-text": {
+              "color": "#cccccc"
+            }
+          },
+          "_name": "features1",
+          "_sourceTheme": "audiom4",
+          "_customHTML": "<section class=\"features1 audiom4_features1\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n\t\t<select title=\"Cards\" name=\"cardsAmount\">\n\t\t\t<option value=\"1\">1</option>\n\t\t\t<option value=\"2\">2</option>\n\t\t\t<option value=\"3\">3</option>\n\t\t\t<option value=\"4\" selected>4</option>\n\t\t</select>\n\t\t<header>Show / Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Date\" name=\"showText\" checked>\n\t\t<header>Cards Background</header>\n\t\t<input type=\"image\" name=\"card1bg\" title=\"Card 1 Bg\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1078.jpg\" condition=\"cardsAmount > 0\">\n\t\t<input type=\"image\" name=\"card2bg\" title=\"Card 2 Bg\" value=\"@PROJECT_PATH@/assets/images/mbr-1280x1920.jpg\" condition=\"cardsAmount > 1\">\n\t\t<input type=\"image\" name=\"card3bg\" title=\"Card 3 Bg\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1351.jpg\" condition=\"cardsAmount > 2\">\n\t\t<input type=\"image\" name=\"card4bg\" title=\"Card 4 Bg\" value=\"@PROJECT_PATH@/assets/images/mbr-1-1920x1276.jpg\" condition=\"cardsAmount > 3\">\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"../_images/background5.jpg\" parallax>\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n\t<div class=\"container-fluid\">\n\t\t<div class=\"media-container-row\" mbr-cards=\"bootstrap\">\n\t\t\t<div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-6': cardsAmount == '2', 'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n\t\t\t\t<div class=\"card-wrapper card1\">\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h4 class=\"card-title align-left pb-2 mbr-semibold mbr-white mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\">\n\t\t\t\t\t\t\tDas Land, das wir Lieben...</h4>\n\n\t\t\t\t\t\t<p class=\"mbr-text align-left mbr-white mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n\t\t\t\t\t\t\tCosta Rica</p>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-6': cardsAmount == '2', 'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n\t\t\t\t<div class=\"card-wrapper card2\">\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h4 class=\"card-title align-left pb-2 mbr-semibold mbr-white mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\">...und die Welt, die wir schützen.</h4>\n\t\t\t\t\t\t<p class=\"mbr-text align-left mbr-white mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n\t\t\t\t\t\t\tunsere Erde</p>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n\t\t\t\t<div class=\"card-wrapper card3\">\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h4 class=\"card-title align-left pb-2 mbr-semibold mbr-white mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\">\n\t\t\t\t\t\t\tDas Leben, das wir lehren...</h4>\n\t\t\t\t\t\t<p class=\"mbr-text align-left mbr-white mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n\t\t\t\t\t\t\tNachhaltigkeit und Schutz</p>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"card p-3 col-12 col-md-6 col-lg-3\" mbr-if=\"cardsAmount > 3\">\n\t\t\t\t<div class=\"card-wrapper card4\">\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h4 class=\"card-title align-left pb-2 mbr-semibold mbr-white mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\">\n\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t<span style=\"font-size: 1.6rem; background-color: transparent\">und das Leben, das wir führen.</span><br>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t<p class=\"mbr-text align-left mbr-white mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n\t\t\t\t\t\t\tUmdenken</p>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
+          "_cid": "syWhI91IV9",
+          "_anchor": "features1-9f",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".card-box": {
+              "z-index": "10",
+              "position": "absolute",
+              "padding": "1rem"
+            },
+            ".container-fluid": {
+              "padding": "0"
+            },
+            "h5": {
+              "margin": "0"
+            },
+            "h3": {
+              "width": "fit-content",
+              "display": "inline-block",
+              "&:before": {
+                "position": "absolute",
+                "content": "''",
+                "left": "50%",
+                "top": "-120px",
+                "bottom": "0",
+                "width": "1px",
+                "height": "100px",
+                "background": "currentColor"
+              },
+              "position": "relative"
+            },
+            ".card": {
+              "margin": "auto",
+              "height": "350px",
+              "perspective": "800px",
+              "cursor": "pointer",
+              "&:hover": {
+                "z-index": "99"
+              }
+            },
+            ".card-wrapper": {
+              "background-position": "center",
+              "background-size": "cover",
+              "transition": "all 0.3s",
+              "display": "flex",
+              "justify-content": "center",
+              "align-items": "flex-end",
+              "transform-origin": "top",
+              "position": "relative",
+              "overflow": "hidden",
+              "& when (@swinging)": {
+                "&:hover": {
+                  "transform": "rotateX(20deg)",
+                  "&:before": {
+                    "transform": "translateY(-10%)",
+                    "opacity": "1"
+                  }
+                }
+              },
+              "& when (@glare)": {
+                "&:before": {
+                  "content": "\"\"",
+                  "height": "100%",
+                  "width": "100%",
+                  "background": "linear-gradient(190deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 90%)",
+                  "clip-path": "polygon(0 0, 100% 0, 100% 25%, 0 75%)",
+                  "opacity": "0",
+                  "position": "absolute",
+                  "transition": "all 0.3s",
+                  "transform": "translateY(-100%)"
+                }
+              },
+              "a": {
+                "height": "100%"
+              },
+              "img": {
+                "height": "100%",
+                "width": "100%",
+                "object-fit": "cover",
+                "pointer-events": "all"
+              }
+            },
+            "h4": {
+              "font-weight": "500",
+              "margin-bottom": "0"
+            },
+            ".btn": {
+              "margin": "0 !important",
+              "padding": "1rem 2rem"
+            },
+            "@media (max-width: 767px)": {
+              ".card-box": {
+                "text-align": "center"
+              }
+            },
+            ".mbr-text": {
+              "color": "#cccccc"
+            },
+            ".card-date": {
+              "color": "#cccccc"
+            },
+            "& when (@squareCards)": {
+              ".card-wrapper": {
+                "width": "(@cardSize * 1px)",
+                "height": "(@cardSize * 1px)",
+                "flex": "none",
+                "@media (max-width: 1200px)": {
+                  "max-width": "313px",
+                  "max-height": "313px"
+                },
+                "@media (max-width: 992px)": {
+                  "max-width": "350px",
+                  "max-height": "350px"
+                },
+                "@media (max-width: 768px)": {
+                  "max-width": "540px",
+                  "max-height": "540px"
+                },
+                "@media (max-width: 576px)": {
+                  "max-width": "237px",
+                  "max-height": "237px"
+                }
+              },
+              ".card": {
+                "height": "(@cardSize * 1px)",
+                "@media (max-width: 1200px)": {
+                  "max-height": "313px"
+                },
+                "@media (max-width: 992px)": {
+                  "max-height": "350px"
+                },
+                "@media (max-width: 768px)": {
+                  "max-height": "540px"
+                },
+                "@media (max-width: 576px)": {
+                  "max-height": "237px"
+                },
+                "margin-bottom": "20px",
+                "align-items": "center"
+              }
+            }
+          },
+          "_name": "features4",
+          "_sourceTheme": "audiom4",
+          "_customHTML": "<section class=\"features4 audiom4_features4\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"12\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"8\">\n\t\t<select title=\"Cards\" name=\"cardsAmount\">\n\t\t\t<option value=\"1\">1</option>\n\t\t\t<option value=\"2\">2</option>\n\t\t\t<option value=\"3\" selected>3</option>\n\t\t</select>\n\t\t<input type=\"range\" inline title=\"Size\" name=\"cardSize\" min=\"10\" max=\"370\" step=\"1\" value=\"300\" condition=\"squareCards\">\n\t\t<header>Show / Hide</header>\n\t\t<input type=\"checkbox\" title=\"Main Subtitle\" name=\"showSubTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Main Title\" name=\"showmainTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Card Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Card Date\" name=\"showDate\" checked>\n\t\t<input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n\t\t<input type=\"checkbox\" title=\"Square Cards\" name=\"squareCards\">\n\t\t<input type=\"checkbox\" title=\"Glare Animation\" name=\"glare\" checked>\n\t\t<input type=\"checkbox\" title=\"Swinging Animation\" name=\"swinging\" checked>\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/mbr-3-1920x1280.jpg\" parallax selected>\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#ffffff\">\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://youtu.be/Gu55JYMxlxY\">\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n\t<div class=\"container\">\n\t\t<div class=\"row\" mbr-cards=\"bootstrap\">\n\t\t\t<div class=\"mbr-white col-md-12 col-lg-12\">\n\t\t\t\t<div class=\"title-align align-center\">\n\t\t\t\t\t<h3 class=\"mbr-section-subtitle mbr-semibold align-center mbr-light mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle, .title-align\" mbr-theme-style=\"display-4\" mbr-if=\"showSubTitle\">\n\t\t\t\t\t\tWeltschule</h3>\n\t\t\t\t</div>\n\t\t\t\t<h1 class=\"mbr-section-title align-center mbr-bold pb-5 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showmainTitle\">\n\t\t\t\t\tDer Wilhelm von Humboldt Nationalpark&nbsp;</h1>\n\t\t\t</div>\n\n\t\t\t<div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-6': cardsAmount == '2', 'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n\t\t\t\t<div class=\"card-wrapper card1\">\n\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/mbr-1-696x522.jpg\" alt=\"Mobirise\">\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h5 class=\"card-date align-left mbr-semibold mbr-white mbr-fonts-style\" mbr-if=\"showDate\" mbr-theme-style=\"display-4\" data-app-selector=\".card-date\"><b>Erstziel: 30 Hektar</b></h5>\n\t\t\t\t\t\t<h4 class=\"card-title align-left mbr-semibold mbr-white mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\">\n\t\t\t\t\t\t\t<b>Landschaft</b></h4>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"mbr-section-btn pt-2 align-center\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-if=\"showButtons\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t<a class=\"btn btn-md btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Listen\n\t\t\t\t\t\tNow&nbsp;</a>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2 || cardsAmount == 1\" mbr-class=\"{'col-lg-6': cardsAmount == '2', 'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n\t\t\t\t<div class=\"card-wrapper card2\">\n\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/mbr-696x466.jpg\" alt=\"Mobirise\">\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h5 class=\"card-date align-left mbr-semibold mbr-white mbr-fonts-style\" mbr-if=\"showDate\" mbr-theme-style=\"display-4\" data-app-selector=\".card-date\"><b>Artenschutz</b></h5>\n\t\t\t\t\t\t<h4 class=\"card-title align-left mbr-semibold mbr-white mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\">\n\t\t\t\t\t\t\t<b>Tierwelt</b></h4>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"mbr-section-btn pt-2 align-center\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-if=\"showButtons\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t<a class=\"btn btn-md btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Listen\n\t\t\t\t\t\tNow&nbsp;</a>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n\t\t\t\t<div class=\"card-wrapper card3\">\n\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/mbr-1-696x463.jpg\" alt=\"Mobirise\">\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h5 class=\"card-date align-left mbr-semibold mbr-white mbr-fonts-style\" mbr-if=\"showDate\" mbr-theme-style=\"display-4\" data-app-selector=\".card-date\"><b>Vielfalt bewahren</b></h5>\n\t\t\t\t\t\t<h4 class=\"card-title align-left mbr-semibold mbr-white mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\">\n\t\t\t\t\t\t\t<b>Pflanzenwelt</b></h4>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"mbr-section-btn pt-2 align-center\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-if=\"showButtons\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t<a class=\"btn btn-md btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Listen\n\t\t\t\t\t\tNow&nbsp;</a>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
+          "_cid": "syWhUuSzAr",
+          "_anchor": "features4-9g",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value",
+              "& when (@gradientBg)": {
+                "background": "linear-gradient(45deg, @bg-value, @color2)"
+              }
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-text": {
+              "@media (max-width: 767px)": {
+                "text-align": "center"
+              }
+            },
+            ".container-fluid": {
+              "padding": "0"
+            },
+            "@media (min-width: 992px)": {
+              ".media-content": {
+                "max-width": "700px",
+                "padding": "5rem 2rem",
+                "margin": "auto",
+                "margin-right": "0"
+              }
+            },
+            ".media-content": {
+              "padding": "5rem 2rem"
+            },
+            "img": {
+              "height": "100%",
+              "object-fit": "cover",
+              "display": "inline-block",
+              "width": "auto"
+            },
+            ".mbr-figure": {
+              "height": "100%"
+            },
+            ".col-lg-5, .col-lg-7": {
+              "padding": "0"
+            },
+            ".row": {
+              "margin": "0"
+            },
+            "@media (max-width: 767px)": {
+              ".media-content": {
+                "padding": "3rem 1rem"
+              }
+            },
+            "H2": {
+              "color": "#f9f295"
+            },
+            ".mbr-text, .img-align": {
+              "color": "#f9f295"
+            }
+          },
+          "_name": "content4",
+          "_sourceTheme": "audiom4",
+          "_customHTML": "<section class=\"content4 audiom4_content4\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\t\t<header>Show / Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showtextTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n\t\t<input type=\"checkbox\" title=\"Signature\" name=\"showSignature\">\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\" parallax>\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#0d0f09\" selected>\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n\t\t</fieldset>\n\n\t\t<input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"bg.type == 'color'\">\n\t\t<input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#000000\" condition=\"gradientBg && bg.type == 'color'\">\n\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n\n\t<div class=\"container-fluid\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"col-md-12 col-lg-6 m-auto\">\n\t\t\t\t<div class=\"media-content\">\n\t\t\t\t\t<h2 class=\"mbr-section-title align-right mbr-white mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showtextTitle\">Über Costa Rica</h2>\n\t\t\t\t\t<p class=\"mbr-text pb-3 align-right mbr-semibold mbr-white mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .img-align\"><br>Das glücklichste Land der Welt; ein Paradies für Frieden und Artenvielfalt; ein grünes Leuchtfeuer für Umweltschutz - Costa Rica ist ein Land mit vielen Auszeichnungen. Aber Costa Ricas Geschichte und Kultur reichen weit über die Reichweite der internationalen Anerkennung hinaus. Die kleine mittelamerikanische Nation beherbergt eine unglaubliche Artenvielfalt und reiche Kulturen, eine Leidenschaft für Freiheit und eine Geschichte der Demokratie, Gleichheit und Bildung für alle.<br><br><b>Kultur</b><br>Die costaricanische Kultur ist eine lebendige Mischung aus indigenem Erbe und spanischem Kolonialeinfluss, mit einer Prise jamaikanischer, chinesischer und anderer Immigrantenkulturen, die Charakter und Bräuche verleihen. Das Ergebnis ist eine Nation von entspannten, freundlichen und glücklichen Menschen. Eine Nation, deren offizielle Sprache Spanisch ist, in der aber große Teile der Bevölkerung Englisch, Bribri, das kreolische Mekatelyu und Mandarin-Chinesisch als erste Sprache sprechen.<br><br>Eine Nation, die stolz darauf ist, keine Armee zu haben (die Costa Ricaner haben ihre Streitkräfte 1949 aufgelöst). Eine Nation mit einer langen Geschichte von öffentlichen Dienstleistungen, einschließlich Bildung und Gesundheitsversorgung, die für alle zugänglich sind. Eine Nation, die stolz darauf ist, ihren kulturellen Reichtum zu teilen.<br><br>Dennoch ist auch hier nicht alles Gold, was glänzt. Der Klimawandel trifft bereits die Küstenregionen, so dass die für das Weltklima wichtigen Mangroven drastisch auf dem Rückzug sind. Große Teile des Landes sind durch die billige Bananen- und Ananasproduktion verschmutzt. Regenwälder werden seit Hunderten von Jahren für Teak-Monokulturen zerstört. Ein Land, das auf das Wohlwollen anderer Länder angewiesen ist, hat es schwer, sich gegen Einflüsse von außen zu wehren.\n<br>\n<br>Es gilt nun, so schnell wie möglich zu bewahren und wieder aufzubauen.\n<br>\n<br>Deshalb haben wir den Wilhelm-von-Humboldt-Nationalpark gegründet, um einen grünen Korridor zu bilden und dieses grüne, glückliche Land für unsere Kinder zu erhalten und ihnen die Möglichkeit zu geben, die Natur in ihrem Zauber zu spüren.<br><br><br>\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<div class=\"img-align align-right mbr-white\" mbr-if=\"showSignature\">\n\t\t\t\t\t\t<img class=\"signature\" src=\"../_images/signature.png\" alt=\"Mobirise\">\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"col-md-12 col-lg-6\">\n\t\t\t\t<div class=\"mbr-figure\">\n\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/mbr-1920x1351.jpeg\" alt=\"Costa Rica\">\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
+          "_cid": "syZWNYBPKo",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-9h"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            ".dropdown-item:before": {
+              "font-family": "MobiriseIcons !important",
+              "content": "'\\e966'",
+              "display": "inline-block",
+              "width": "0",
+              "position": "absolute",
+              "left": "1rem",
+              "top": "0.5rem",
+              "margin-right": "0.5rem",
+              "line-height": "1",
+              "font-size": "inherit",
+              "vertical-align": "middle",
+              "text-align": "center",
+              "overflow": "hidden",
+              "-webkit-transform": "scale(0, 1)",
+              "transform": "scale(0, 1)",
+              "-webkit-transition": "all 0.25s ease-in-out",
+              "-moz-transition": "all 0.25s ease-in-out",
+              "transition": "all 0.25s ease-in-out"
+            },
+            ".nav-dropdown .link": {
+              "padding": "0 0.3em !important",
+              "margin": ".667em 1em !important"
+            },
+            ".nav-dropdown .link.dropdown-toggle::after": {
+              "margin-left": "0.5rem",
+              "margin-top": "0.2rem"
+            },
+            ".nav-link": {
+              "position": "relative",
+              "&:before": {
+                "content": "''",
+                "display": "block",
+                "position": "absolute",
+                "bottom": "0",
+                "left": "0",
+                "z-index": "-1",
+                "opacity": ".2",
+                "height": "50%",
+                "width": "100%",
+                "background-color": "currentColor",
+                "transform-origin": "right top",
+                "transform": "scale(0, 1)",
+                "transition": "transform 0.3s ease-out"
+              },
+              "&:hover": {
+                "&:before": {
+                  "transform-origin": "left top",
+                  "transform": "scale(1, 1)"
+                }
+              }
+            },
+            ".container": {
+              "display": "flex",
+              "margin": "auto"
+            },
+            ".navbar.navbar-short": {
+              ".nav-link, .navbar-caption, .mbr-iconfont, .btn": {
+                "color": "@scrollcolor !important",
+                "border-color": "@scrollcolor"
+              },
+              ".hamburger span": {
+                "background": "@scrollcolor !important"
+              }
+            },
+            ".navbar-caption": {
+              "padding-right": "3rem"
+            },
+            ".dropdown-menu, .navbar.opened": {
+              "background": "@ddbg !important"
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".dropdown .dropdown-menu .dropdown-item": {
+              "width": "auto",
+              "-webkit-transition": "all 0.25s ease-in-out",
+              "-moz-transition": "all 0.25s ease-in-out",
+              "transition": "all 0.25s ease-in-out",
+              "&::after": {
+                "right": "0.5rem"
+              },
+              ".mbr-iconfont": {
+                "margin-left": "-1.8rem",
+                "padding-right": "1rem",
+                "font-size": "inherit",
+                "&:before": {
+                  "display": "inline-block",
+                  "-webkit-transform": "scale(1, 1)",
+                  "transform": "scale(1, 1)",
+                  "-webkit-transition": "all 0.25s ease-in-out",
+                  "-moz-transition": "all 0.25s ease-in-out",
+                  "transition": "all 0.25s ease-in-out"
+                }
+              }
+            },
+            ".collapsed": {
+              ".dropdown-menu .dropdown-item:before": {
+                "display": "none"
+              },
+              ".dropdown .dropdown-menu .dropdown-item": {
+                "padding": "0.235em 1.5em 0.235em 1.5em !important",
+                "transition": "none",
+                "margin": "0 !important"
+              }
+            },
+            ".navbar": {
+              "min-height": "77px",
+              "transition": "all .3s",
+              "background": "@menuBgColor",
+              "& when (@transparent)": {
+                "background": "none"
+              },
+              "&.opened": {
+                "transition": "all .3s"
+              },
+              ".dropdown-item": {
+                "padding": ".235rem 1.5rem"
+              },
+              ".navbar-collapse": {
+                "justify-content": "space-between",
+                "z-index": "1",
+                "& when not (@showItems)": {
+                  "display": "none !important"
+                }
+              },
+              "&.collapsed": {
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  },
+                  "@media (min-width: 992px)": {
+                    "&:not(.navbar-short) .navbar-collapse when (@showLogo)": {
+                      "max-height": "~\"calc(98.5vh - @{logoSize}rem)\""
+                    }
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "55%"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": ".25rem 1.5rem",
+                  "text-align": "center"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-top": ".5rem",
+                  "padding-bottom": ".5rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "55%"
+                  }
+                },
+                ".navbar-logo": {
+                  "img": {
+                    "height": "3.8rem !important"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": ".25rem 1.5rem !important",
+                  "text-align": "center"
+                },
+                ".navbar-brand": {
+                  "-webkit-flex-shrink": "initial",
+                  "flex-shrink": "initial",
+                  "-webkit-flex-basis": "auto",
+                  "flex-basis": "auto",
+                  "word-break": "break-word",
+                  "padding-right": "2rem"
+                },
+                ".navbar-toggler": {
+                  "-webkit-flex-basis": "auto",
+                  "flex-basis": "auto"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-top": ".5rem",
+                  "padding-bottom": ".5rem"
+                }
+              },
+              "&.navbar-short": {
+                "background": "@menuBgColor !important",
+                "min-height": "60px",
+                ".navbar-logo": {
+                  "img": {
+                    "height": "3rem !important"
+                  }
+                },
+                ".navbar-brand": {
+                  "padding": "0"
+                }
+              }
+            },
+            ".navbar-brand": {
+              "-webkit-flex-shrink": "0",
+              "flex-shrink": "0",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "margin-right": "0",
+              "padding": "0",
+              "transition": "all .3s",
+              "word-break": "break-word",
+              "z-index": "1",
+              ".navbar-caption": {
+                "line-height": "inherit !important"
+              },
+              ".navbar-logo a": {
+                "outline": "none"
+              }
+            },
+            ".dropdown-item.active,.dropdown-item:active": {
+              "background-color": "transparent"
+            },
+            ".navbar-expand-lg .navbar-nav .nav-link": {
+              "padding": "0"
+            },
+            ".nav-dropdown .link.dropdown-toggle": {
+              "margin-right": "1.667em",
+              "&[aria-expanded=\"true\"]": {
+                "margin-right": "0",
+                "padding": "0.667em 1.667em"
+              }
+            },
+            ".navbar.navbar-expand-lg .dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                ".dropdown-submenu": {
+                  "margin": "0",
+                  "left": "100%"
+                }
+              }
+            },
+            ".navbar .dropdown.open > .dropdown-menu": {
+              "display": "block"
+            },
+            "ul.navbar-nav": {
+              "-webkit-flex-wrap": "wrap",
+              "flex-wrap": "wrap"
+            },
+            ".navbar-buttons": {
+              "text-align": "center"
+            },
+            "button.navbar-toggler": {
+              "outline": "none",
+              "width": "31px",
+              "height": "20px",
+              "cursor": "pointer",
+              "transition": "all .2s",
+              "position": "relative",
+              "-webkit-align-self": "center",
+              "align-self": "center",
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all .2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all .2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              },
+              "&:nth-child(2)": {
+                "-webkit-transform": "rotate(45deg)",
+                "transform": "rotate(45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(3)": {
+                "-webkit-transform": "rotate(-45deg)",
+                "transform": "rotate(-45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              }
+            },
+            ".navbar-dropdown": {
+              "padding": ".5rem 1rem",
+              "& when (@sticky)": {
+                "position": "fixed"
+              }
+            },
+            "a.nav-link": {
+              "display": "flex",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "-webkit-justify-content": "center",
+              "justify-content": "center"
+            },
+            ".mbr-iconfont": {
+              "font-size": "1.5rem",
+              "padding-right": ".5rem"
+            },
+            ".icons-menu": {
+              "-webkit-flex-wrap": "wrap",
+              "flex-wrap": "wrap",
+              "display": "flex",
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              "padding-left": "1rem",
+              "padding-right": "1rem",
+              "padding-top": "0.3rem",
+              "text-align": "center",
+              "span": {
+                "font-size": "20px",
+                "color": "#ffffff"
+              }
+            },
+            "@media screen and (~'-ms-high-contrast: active'), (~'-ms-high-contrast: none')": {
+              ".navbar": {
+                "height": "77px",
+                "&.opened": {
+                  "height": "auto"
+                }
+              },
+              ".nav-item .nav-link:hover::before": {
+                "width": "175%",
+                "max-width": "calc(100% ~'+' 2rem)",
+                "left": "-1rem"
+              }
+            }
+          },
+          "_name": "menu1",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"4.5\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\">\n        <select title=\"Icons\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n\n        <input type=\"color\" title=\"Scroll Color\" name=\"scrollcolor\" value=\"#000000\">\n        <input type=\"color\" title=\"Drop Down BG\" name=\"ddbg\" value=\"#efefef\">\n\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#0f7699\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n\n        <div class=\"container\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://deutsche-online-schule.com\">\n                        <img src=\"@PROJECT_PATH@/assets/images/wvh-logo-1c.svg\" alt=\"Wilhelm von Humboldt Online Privatschule\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://deine-schule.com\" data-app-placeholder=\"Type Text\">Wilhelm von Humboldt<br>Online Privatschule</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item dropdown\">\n                        <a class=\"nav-link link text-black dropdown-toggle\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">\n                            Start</a><div class=\"dropdown-menu\"><a class=\"text-black dropdown-item text-primary\" href=\"index.html#FAQ_header\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">FAQs</a><a class=\"text-black dropdown-item text-primary\" href=\"OnlineSchool.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Was ist eine online Schule</a><a class=\"text-black dropdown-item text-primary\" href=\"homeschooling.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Online Schooling weltweit</a><a class=\"text-black dropdown-item text-primary\" href=\"aufnahmeantrag.html#extFeatures7-h\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Kostenstruktur</a></div>\n                    </li>\n                    <li class=\"nav-item dropdown\"><a class=\"nav-link link text-black dropdown-toggle\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">Unser Team</a><div class=\"dropdown-menu\"><a class=\"text-black dropdown-item text-primary\" href=\"kollegium.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Kollegium<br></a><a class=\"text-black dropdown-item text-primary\" href=\"wissenschaft.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Wissenschaftliche Begleitung</a><a class=\"text-black dropdown-item text-primary\" href=\"Kooperationspartner.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Unsere Partner<br></a><a class=\"text-black dropdown-item text-primary\" href=\"In_der_Presse.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Wir in der Presse<br></a></div>\n                        \n                    </li>\n                    <li class=\"nav-item dropdown\"><a class=\"nav-link link dropdown-toggle text-black\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Konzepte</a><div class=\"dropdown-menu\"><a class=\"text-black dropdown-item\" href=\"Grundschule.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Grundschule</a><a class=\"dropdown-item text-black\" href=\"Sekundarstufe1.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Mittelstufe<br></a><a class=\"text-black dropdown-item text-primary\" href=\"Oberstufe.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Oberstufe<br></a><a class=\"text-black dropdown-item text-primary\" href=\"Oberstufe.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">-------------------------<br></a><a class=\"text-black dropdown-item\" href=\"sozialpaedagogischeberatung.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Beratung und Unterstützung</a><a class=\"text-black dropdown-item\" href=\"ergaenzungsunterricht.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Ergänzungsunterricht<br></a></div></li><li class=\"nav-item dropdown\"><a class=\"nav-link link text-black dropdown-toggle\" href=\"aufnahmeantrag.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">Kontakt zu uns<br></a><div class=\"dropdown-menu\"><a class=\"text-black dropdown-item text-primary\" href=\"info.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Informationsveranstaltung</a><a class=\"text-black dropdown-item text-primary\" href=\"tel:004962118065769  \" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Telefon:&nbsp;&nbsp;+49-621-18065769  </a><a class=\"text-black dropdown-item text-primary\" href=\"gespraech.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Kontaktformular</a><a class=\"text-black dropdown-item\" href=\"aufnahmeantrag.html#extFeatures7-h\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\"></a></div></li></ul>\n                <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                    <a href=\"https://deine-schule.com/en/\" target=\"_blank\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont fa-language fa\" style=\"color: rgb(7, 59, 76); fill: rgb(7, 59, 76);\"></span>\n                    </a>\n                    <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                    </a>\n                    <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-vimeo socicon\"></span>\n                    </a>\n                    <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n                    </a>\n                    <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 4\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n                    </a>\n                    <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 5\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n                    </a>\n                </div>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-white-outline\" href=\"https://deineschule.sharepoint.com/sites/KalenderundNeuigkeiten\" data-app-placeholder=\"Type Text\" target=\"_blank\">interner<br>Bereich<br></a></div>\n            </div>\n        </div>\n    </nav>\n\n</section>",
+          "_cid": "syWaZZcILA",
+          "_anchor": "menu1-9a",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "",
+          "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "audiom4",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_anchor": "custom-html-9b"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            }
+          },
+          "_name": "content8",
+          "_sourceTheme": "audiom4",
+          "_customHTML": "<section class=\"conten8 audiom4_content8\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"5\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"5\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\t\t<header>Show / Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n\t\t<input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\" parallax>\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#efefef\" selected>\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n\t<div class=\"container\">\n\t\t<div class=\"row justify-content-center\">\n\t\t\t<div class=\"mbr-black col-md-12 col-lg-10\">\n\t\t\t\t<h2 class=\"mbr-section-title align-center mbr-bold pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">Bitte füllen Sie unser Kontaktformular aus, wir werden uns in Kürze bei Ihnen melden.</h2>\n\t\t\t\t<p class=\"mbr-text align-center mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .img-align\">\n\t\t\t\t\t[JS_CODE_0]\n[JS_CODE_1]\n\t\t\t\t</p>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script charset=\"utf-8\" type=\"text/javascript\" src=\"//js.hsforms.net/forms/shell.js\"></script>",
+            "<script>\n  hbspt.forms.create({\n\tportalId: \"8716917\",\n\tformId: \"6348a566-ce92-4334-ba6a-ca5c0a376b31\"\n});\n</script>"
+          ],
+          "_cid": "syWaZZGVvj",
+          "_anchor": "content8-9c",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
