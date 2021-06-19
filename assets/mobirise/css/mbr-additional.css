@@ -15837,6 +15837,35 @@ a {
 .cid-syWhUuSzAr .card-date {
   color: #cccccc;
 }
+.cid-sAGYsgYIBW {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  background-image: url("../../../assets/images/mbr-1-1920x1080.jpg");
+}
+@media (max-width: 767px) {
+  .cid-sAGYsgYIBW .mbr-text {
+    text-align: center;
+  }
+}
+.cid-sAGYsgYIBW li {
+  list-style: none;
+  padding-bottom: 1.5rem;
+  text-decoration: underline;
+}
+.cid-sAGYsgYIBW ul {
+  padding: 0;
+  margin: 0;
+}
+.cid-sAGYsgYIBW H3 {
+  text-align: center;
+}
+.cid-sAGYsgYIBW .item1 a:hover {
+  color: #ff7f9f !important;
+}
+.cid-sAGYsgYIBW .mbr-text,
+.cid-sAGYsgYIBW .mbr-section-btn {
+  color: #f9f295;
+}
 .cid-syWaZZcILA .dropdown-item:before {
   font-family: MobiriseIcons !important;
   content: '\e966';
