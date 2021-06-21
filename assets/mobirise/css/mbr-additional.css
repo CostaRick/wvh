@@ -15395,6 +15395,13 @@ a {
   display: inline-block;
   width: auto;
 }
+.cid-syDFyQiAXl H1 {
+  text-align: left;
+}
+.cid-syDFyQiAXl .mbr-section-subtitle,
+.cid-syDFyQiAXl .title-align {
+  text-align: center;
+}
 .cid-syPjeYVNXa {
   padding-top: 180px;
   padding-bottom: 75px;
@@ -15418,6 +15425,9 @@ a {
 .cid-syPjeYVNXa .signature {
   display: inline-block;
   width: auto;
+}
+.cid-syPjeYVNXa H1 {
+  text-align: left;
 }
 .cid-syWbDHlX0K {
   padding-top: 225px;
