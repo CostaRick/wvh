@@ -16336,28 +16336,91 @@ a {
 .cid-rJ1R1YSbzF .title-align {
   color: #000000;
 }
-.cid-rJ1R3lCR9W {
-  padding-top: 30px;
-  padding-bottom: 75px;
+.cid-sCrfOVIihE {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #ffffff;
 }
-.cid-rJ1R3lCR9W h3 {
-  position: relative;
+.cid-sCrfOVIihE .cover {
+  width: 250px;
+  margin: auto;
+  padding-bottom: 1rem;
 }
-.cid-rJ1R3lCR9W h3:after {
+.cid-sCrfOVIihE .btn {
+  border-radius: 0;
+}
+.cid-sCrfOVIihE .btn .mbr-iconfont {
+  font-size: 1rem;
+}
+@media (min-width: 992px) {
+  .cid-sCrfOVIihE .media-content {
+    max-width: 450px;
+    margin: auto;
+  }
+}
+.cid-sCrfOVIihE .icons-wrap {
+  display: flex;
+}
+.cid-sCrfOVIihE .icons-wrap .mbr-iconfont {
+  font-size: 1.5rem;
+  color: #000000 !important;
+  padding-top: 0.4rem;
+  padding-right: 0.5rem;
+}
+.cid-sCrfOVIihE h2 {
+  margin: 0;
+}
+.cid-sCrfOVIihE .icon-wrap {
+  display: flex;
+  align-items: center;
+  padding-right: 2.5rem;
+}
+.cid-sCrfOVIihE .mbr-figure {
+  z-index: 2;
+  padding: 8rem 2rem;
+}
+.cid-sCrfOVIihE .card {
+  overflow: hidden;
+  height: 100%;
+}
+.cid-sCrfOVIihE .card:before {
+  content: "";
   position: absolute;
-  content: '';
-  left: 50%;
-  bottom: -130px;
-  width: 1px;
-  height: 100px;
-  background: currentColor;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../../assets/images/mbr-1920x1920.png");
+  filter: blur(15px);
+  background-size: cover;
+  z-index: 1;
 }
-.cid-rJ1R3lCR9W .mbr-iconfont {
-  margin-top: 160px;
-  display: block;
-  font-size: 3rem;
-  color: #000000;
+.cid-sCrfOVIihE H4 {
+  color: #051804;
+}
+@media (max-width: 767px) {
+  .cid-sCrfOVIihE .icons-wrap {
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+    padding-bottom: 0.5rem;
+    padding-right: 0rem;
+  }
+  .cid-sCrfOVIihE .icon-wrap {
+    padding-bottom: 0.6rem;
+    padding-right: 0rem;
+  }
+  .cid-sCrfOVIihE .cover {
+    width: 100%;
+  }
+}
+.cid-sCrfOVIihE .mbr-text,
+.cid-sCrfOVIihE .mbr-section-btn {
+  color: #00618d;
+}
+.cid-sCrfOVIihE H3 {
+  color: #051804;
 }
 .cid-sCreev3xPS {
   padding-top: 0px;
