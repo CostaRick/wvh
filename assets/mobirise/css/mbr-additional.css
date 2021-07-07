@@ -16359,6 +16359,90 @@ a {
   font-size: 3rem;
   color: #000000;
 }
+.cid-sCreev3xPS {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-image: url("../../../assets/images/mbr-7-1920x1280.jpg");
+}
+.cid-sCreev3xPS .mbr-section-subtitle {
+  color: #767676;
+  text-align: left;
+  line-height: 1.6;
+}
+.cid-sCreev3xPS .col-lg-3,
+.cid-sCreev3xPS .col-lg-6 {
+  padding: 0 !important;
+}
+.cid-sCreev3xPS .btn {
+  border-radius: 30px;
+}
+.cid-sCreev3xPS .card-wrapper {
+  min-height: 700px;
+  border-right: 1px solid white;
+}
+.cid-sCreev3xPS .image-element {
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}
+.cid-sCreev3xPS .image-element img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+.cid-sCreev3xPS .wrapper {
+  padding: 2rem;
+}
+@media (min-width: 992px) {
+  .cid-sCreev3xPS .image-element:hover .wrapper {
+    padding-top: 0;
+  }
+  .cid-sCreev3xPS .image-element:hover .wrapper .collapsed-content {
+    transition: opacity 0.3s, max-height 0.9s;
+    opacity: 1;
+    max-height: 999px;
+  }
+  .cid-sCreev3xPS .wrapper {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 2rem;
+    background: transparent;
+  }
+  .cid-sCreev3xPS .wrapper .collapsed-content {
+    transition: opacity 0.3s, max-height 0.3s;
+    opacity: 0;
+    max-height: 0px;
+    overflow: hidden;
+  }
+}
+@media (max-width: 992px) {
+  .cid-sCreev3xPS .card-title,
+  .cid-sCreev3xPS .underline,
+  .cid-sCreev3xPS .mbr-text,
+  .cid-sCreev3xPS .mbr-section-btn,
+  .cid-sCreev3xPS .mbr-section-subtitle,
+  .cid-sCreev3xPS .mbr-section-title {
+    text-align: center !important;
+  }
+  .cid-sCreev3xPS .card-wrapper {
+    align-items: center;
+    display: flex;
+    min-height: 500px;
+    border-bottom: 1px solid white;
+  }
+}
+.cid-sCreev3xPS .mbr-section-title {
+  text-align: left;
+}
+.cid-sCreev3xPS .mbr-section-title,
+.cid-sCreev3xPS .underline {
+  text-align: center;
+}
+.cid-sCreev3xPS H4 {
+  color: #e1201d;
+}
 .cid-rJ1R9cacNY .dropdown-item:before {
   font-family: MobiriseIcons !important;
   content: '\e966';
